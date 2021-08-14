@@ -61,11 +61,8 @@ section {
   font-size: 100px;
 }
 
-.projects {
-  background-image: url('/public/images/Cert/bgp.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.gallary {
+  background-color: silver;
   
 }
 
