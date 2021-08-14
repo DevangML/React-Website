@@ -7,6 +7,7 @@ const Para = styled.p`
   background-color: silver;
   border-radius: 30px;
   padding: 1.2em;
+  font-size:1.2em;
 `;
 
 const Head = styled.h1`
@@ -59,10 +60,10 @@ const Card = styled.div`
 function Cards() {
   return (
     <div className="cards">
-      <Head>Devang Manjramkar</Head>
+      <Head>About Me</Head>
       <br />
       <h2 align="center">
-        Executive Committee Member at IEEE Students' Branch, VIT Pune
+        I am Executive Committee Member at IEEE Students' Branch, VIT Pune
       </h2>
       <br />
       <br />
