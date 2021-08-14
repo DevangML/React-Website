@@ -1,0 +1,37 @@
+import React from "react";
+import "./Footer.css";
+import { Button } from "./Button";
+import { Link } from "react-router-dom";
+
+import styled from "styled-components";
+
+
+function Footer() {
+  return (
+    <div>
+      <section id="contact" className="contact">
+        <div className="section-title">
+          <h2 className="heading">Contact</h2>
+          <p className="d-block w-75">
+            For any business enquiries get in touch with me through my address
+            and email-id
+          </p>
+        </div>
+
+        <div className="address">
+          <i className="icofont-google-map" style={{ fontSize: "1.5em" }}></i>
+          <h4 id="loc">Location: Pune, MH, IN</h4>
+        </div>
+        <br />
+        <div className="email">
+          <i className="icofont-envelope" style={{ fontSize: "1.5em" }}></i>
+          <h4 id="ml">Email: devang.manjramkar20@gmail.com</h4>
+        </div>
+        <br/>
+        <iframe title="location" src="https://maps.google.com/maps?q=Pune&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
+      </section>
+    </div>
+  );
+}
+
+export default Footer;
