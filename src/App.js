@@ -4,9 +4,12 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
-import Products from './components/pages/Products';
+import Projects from './components/pages/Projects';
 import SignUp from './components/pages/SignUp';
 import Icofont from 'react-icofont';
+
+
+
 
 function App() {
   return (
@@ -16,7 +19,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />
-          <Route path='/products' component={Products} />
+          <Route path='/projects' component={Projects} />
           <Route path='/sign-up' component={SignUp} />
         </Switch>
       </Router>

@@ -44,7 +44,6 @@ section {
 
 .home,
 .services,
-.products,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -62,13 +61,12 @@ section {
   font-size: 100px;
 }
 
-.products {
-  background-image: url('/images/img-1.jpg');
+.projects {
+  background-image: url('/public/images/Cert/bgp.png');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  
 }
 
 .sign-up {
