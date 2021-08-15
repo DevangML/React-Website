@@ -1,20 +1,13 @@
 import React from 'react'
-import styled from "styled-components";
-
-const P = styled.p`
-    text-align: center;
-    font-size: 2rem;
-    color: rgb(255, 242, 182);
-`
-
+import './Dfooter.css'
 
 function Dfooter() {
     return (
-    <section className="footer" style={{background: '#161616'}}>
+    <section className="footer">
         <div className="container">
-            <P className="display-1">
+            <p className="Pa">
             &#169; IEEE<br/>Made by Devang
-            </P>
+            </p>
         </div>
     </section>
     )

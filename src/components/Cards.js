@@ -1,73 +1,18 @@
 import React from "react";
 import "./Cards.css";
-import CardItem from "./CardItem";
-import styled from "styled-components";
 
-const Para = styled.p`
-  background-color: silver;
-  border-radius: 30px;
-  padding: 1.2em;
-  font-size:1.2em;
-`;
-
-const Head = styled.h1`
-  font-size: 4em;
-`;
-
-const Cardcont = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 0;
-  padding: 5px;
-  overflow:hidden;
-  border: 0;
-  justify-content: space-evenly;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  box-sizing: border-box;
-`;
-
-const Img = styled.img`
-  display: flex;
-  align-items: center;
-  transition: all 0.2s linear;
-  &:hover {
-    transform: scale(1.1);
-  }
-
-  padding: 0;
-  margin: 5px;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  box-sizing: border-box;
-  width: 39%;
-  height: 100%;
-  object-fit: contain;
-`;
-
-const Card = styled.div`
-  display: inline;
-  padding: 1.02em;
-  margin: 1.1em;
-  border: dotted white;
-  border-radius: 30px;
-`;
 
 function Cards() {
   return (
     <div className="cards">
-      <Head>About Me</Head>
+      <h1 className="Head">About Me</h1>
       <br />
       <h2 align="center">
         I am Executive Committee Member at IEEE Students' Branch, VIT Pune
       </h2>
       <br />
       <br />
-      <Para>
+      <p className='Para'>
         I am an engineering student at Vishwakarma Institute Of Technology,
         Pune. I study in the AI-DS branch. I love Machine Learning, artificial
         intelligence and web development. I am a Linux enthusiast and like to
@@ -76,18 +21,19 @@ function Cards() {
         HTML, CSS and JavaScript, with two projects one in C and other in
         Python. I am also executive committee member of IEEE Student Branch, VIT
         Pune.
-      </Para>
+      </p>
       <br />
-      <Head>Skills I have</Head>
-      <Cardcont>
-        <Img src="./images/C.svg" width="50px" height="50px" />
-        <Img src="./images/C++.svg" width="50px" height="50px" />
-        <Img src="./images/html.svg" width="50px" height="50px" />
-        <Img src="./images/css.svg" width="50px" height="50px" />
-        <Img src="./images/JS.svg" width="50px" height="50px" />
-        <Img src="./images/Python.svg" width="50px" height="50px" />
-        <Img src="./images/mern.svg" width="50px" height="50px" />
-      </Cardcont>
+      <h1 className='Head'>Skills I have</h1>
+      <br/><br/>
+      <div className='Cardcont'>
+        <img className='Img' src="./images/C.png" width="50px" height="50px" />
+        <img className='Img' src="./images/C++.png" width="50px" height="50px" />
+        <img className='Img' src="./images/html.png" width="50px" height="50px" />
+        <img className='Img' src="./images/css.png" width="50px" height="50px" />
+        <img className='Img' src="./images/JS.png" width="50px" height="50px" />
+        <img className='Img' src="./images/python.png" width="50px" height="50px" />
+        <img className='Img' src="./images/mern.png" width="50px" height="50px" />
+      </div>
     </div>
   );
 }

@@ -4,10 +4,13 @@ height: 290px;
 border-radius: 30px;
 }
 
+.footer-cont{}
+
 section{ background: #1c1b1b;
   color: white;
   text-align: justify;
-  padding: 1em;}
+  padding: 1em;
+}
 
 
 .heading{
