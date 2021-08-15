@@ -10,6 +10,14 @@
   z-index: 999;
 }
 
+.Imgg{overflow: hidden;border-radius: 90px;padding: 2em; display: inline;
+  width: -7%;
+  right: 111px;
+  position: relative;
+width:12.5%;}
+
+
+
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -40,7 +48,7 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 22vw;
   justify-content: end;
   margin-right: 2rem;
 }

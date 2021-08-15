@@ -11,9 +11,8 @@ function HeroSection() {
     <div className='hero-container'>
       
       <video src='/videos/video-1.mp4' autoPlay loop muted />
-      
-      <h1>Devang Manjramkar</h1>
-      <Typed strings={['I am Web Developer']} typeSpeed={44} loop style={{color:'whitesmoke'}}/>
+      <h1 className='H2'>Devang Manjramkar</h1>
+      <Typed strings={['I am Web Developer']} typeSpeed={44} loop className='type'/>
       <div className='hero-btns'>
         <Button
           className='btns'
