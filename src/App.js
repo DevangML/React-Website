@@ -7,7 +7,7 @@ import Projects from './components/pages/Projects';
 import Gallary from './components/pages/Gallary';
 import ContactMe from './components/pages/ContactMe';
 import Icofont from 'react-icofont';
-import ScrollAnimation from 'react-animate-on-scroll';
+
 
 
 
