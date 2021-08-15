@@ -32,7 +32,7 @@ function Navbar() {
 
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-
+        
 
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -62,16 +62,16 @@ function Navbar() {
                 Projects
               </Link>
             </li>
-
-            <li>
+            <li className='nav-item'>
               <Link
-                to='/sign-up'
-                className='nav-links-mobile'
+                to='/timeline'
+                className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Timeline
               </Link>
             </li>
+            
           </ul>
           {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
