@@ -9,6 +9,10 @@ h1 {
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
 }
+
+h2{
+  font-size: 2em;
+}
 .Img{
   background: transparent;
   display: flex;
@@ -49,10 +53,10 @@ h1 {
 }
 
 .Para{ background-color: silver;
-  border-radius: 30px;
+  border-radius: 1.875em;
   padding: 1.2em;
-  font-size:1.2em;}
+  font-size:2em;}
 
-.Head{font-size: 4em;}
+.Head{font-size: 5em;}
 
 .Img{background-color: transparent;}
