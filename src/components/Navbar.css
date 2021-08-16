@@ -10,11 +10,11 @@
   z-index: 999;
 }
 
-.Imgg{overflow: hidden;border-radius: 90px;padding: 2em; display: inline;
+.Imgg{overflow: hidden;border-radius: 5.625em;padding: 2em; display: inline;
   width: -7%;
-  right: 111px;
+  right: 6.9375em;
   position: relative;
-width:12.5%;}
+  width:12.5%;}
 
 
 
@@ -23,13 +23,13 @@ width:12.5%;}
   justify-content: center;
   align-items: center;
   height: 10vh;
-  max-width: 1500px;
+  max-width: 93.75em;
 }
 
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
+  margin-left: 1.25em;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -42,7 +42,7 @@ width:12.5%;}
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 0.625em;
   list-style: none;
   text-align: center;
   width: 22vw;
@@ -66,7 +66,7 @@ width:12.5%;}
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 0.25em solid #fff;
   transition: all 0.2s ease-out;
 }
 

@@ -1,0 +1,11 @@
+.projects{background: url('./proj-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;}
+
+
+.proj-h1{
+    font-size: 3em;
+}

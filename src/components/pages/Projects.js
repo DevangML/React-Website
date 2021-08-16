@@ -2,12 +2,13 @@ import React from "react";
 import "../../App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import './Projects.css'
 
 export default function Services() {
   return (
-    <div class="gallary">
+    <div className="projects">
       <div>
-        <h1>My Certificates</h1>
+        <h1 className='proj-h1'>My Projects</h1>
       </div>
       <br />
       <br />
@@ -16,7 +17,8 @@ export default function Services() {
         autoPlay
         stopOnHover
         transitionTime="500"
-        
+        className='carr'
+        showStatus={false}
       >
         <a
           href="https://github.com/DevangML/Advanced-Scientific-Calculator"

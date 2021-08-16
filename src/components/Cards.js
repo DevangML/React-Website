@@ -26,13 +26,13 @@ function Cards() {
       <h1 className='Head'>Skills I have</h1>
       <br/><br/>
       <div className='Cardcont'>
-        <img className='Img' src="./images/C.png" width="50px" height="50px" />
-        <img className='Img' src="./images/C++.png" width="50px" height="50px" />
-        <img className='Img' src="./images/html.png" width="50px" height="50px" />
-        <img className='Img' src="./images/css.png" width="50px" height="50px" />
-        <img className='Img' src="./images/JS.png" width="50px" height="50px" />
-        <img className='Img' src="./images/python.png" width="50px" height="50px" />
-        <img className='Img' src="./images/mern.png" width="50px" height="50px" />
+        <img className='Img' src="./images/C.png" width="4em" height="4em" />
+        <img className='Img' src="./images/C++.png" width="4em" height="4em" />
+        <img className='Img' src="./images/html.png" width="4em" height="4em" />
+        <img className='Img' src="./images/css.png" width="4em" height="4em" />
+        <img className='Img' src="./images/JS.png" width="4em" height="4em" />
+        <img className='Img' src="./images/python.png" width="4em" height="4em" />
+        <img className='Img' src="./images/mern.png" width="4em" height="4em" />
       </div>
     </div>
   );

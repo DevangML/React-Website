@@ -12,19 +12,19 @@ function Footer() {
       <section id="contact" className="contact">
         <div className="section-title">
           <h2 className="heading">Contact</h2>
-          <p className="d-block w-75">
+          <p className='Foot-Para'>
             For any business enquiries get in touch with me through my address
             and email-id
           </p>
         </div>
 
         <div className="address">
-          <i className="icofont-google-map" style={{ fontSize: "1.5em" }}></i>
-          <h4 id="loc">Location: Pune, MH, IN</h4>
+          <i className="icofont-google-map"></i>
+          <h4 id="locc">Location: Pune, MH, IN</h4>
         </div>
         <br />
         <div className="email">
-          <i className="icofont-envelope" style={{ fontSize: "1.5em" }}></i>
+          <i className="icofont-envelope"></i>
           <h4 id="ml">Email: devang.manjramkar20@gmail.com</h4>
         </div>
         <br/>

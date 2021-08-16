@@ -11,7 +11,7 @@ h1 {
 }
 
 h2{
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .Img{
   background: transparent;
@@ -19,7 +19,7 @@ h2{
   align-items: center;
   transition: all 0.2s linear;
   padding: 0;
-  margin: 5px;
+  margin: 0.3125em;
   border: 0;
   font-size: 100%;
   font: inherit;
@@ -41,11 +41,11 @@ h2{
   flex-wrap: wrap;
   align-items: center;
   margin: 0;
-  padding: 5px;
+  padding: 0.3125em;
  
   border: 0;
   justify-content: space-evenly;
-  font-size: 100%;
+  font-size: 4em;
   font: inherit;
   vertical-align: baseline;
   box-sizing: border-box;
@@ -55,8 +55,8 @@ h2{
 .Para{ background-color: silver;
   border-radius: 1.875em;
   padding: 1.2em;
-  font-size:2em;}
+  font-size:1.4em;}
 
-.Head{font-size: 5em;}
+.Head{font-size: 3em;}
 
 .Img{background-color: transparent;}
