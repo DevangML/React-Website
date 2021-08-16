@@ -10,7 +10,7 @@ video {
 
 .type{
   color:whitesmoke;
-  font-size:2em;
+  font-size:3vw;
 }
 
 .H2{text-shadow: 0px 3px 0px #b2a98f,
@@ -36,15 +36,8 @@ video {
 
 .hero-container > h1 {
   color: #fff;
-  font-size: 100px;
+  font-size: 7vw;
   margin-top: -100px;
-
-}
-
-.hero-container > p {
-  margin-top: 8px;
-  color: #fff;
-  font-size: 32px;
 
 }
 
