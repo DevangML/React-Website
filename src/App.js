@@ -5,8 +5,8 @@ import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from './components/pages/Projects';
 import Gallary from './components/pages/Gallary';
-import ContactMe from './components/pages/ContactMe';
 import Timedline from './components/pages/Timeline';
+import ContactMe from './components/pages/ContactMe'
 import Icofont from 'react-icofont';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path='/gallary' component={Gallary} />
           <Route path='/projects' component={Projects} />
           <Route path='/timeline' component={Timedline} />
-          <Route path='/contact' component={ContactMe} />
+          <Route path='/contactme' component={ContactMe} />
         </Switch>
       </Router>   
     </>

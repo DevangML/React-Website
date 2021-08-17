@@ -9,11 +9,11 @@ import Typed from 'react-typed';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      
       <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1 className='H2'>Devang Manjramkar</h1>
-      <br/>
-      <Typed strings={['I am Web Developer']} typeSpeed={44} loop className='type'/>
+      <br/><br/><br/><br/><br/>
+      <h1 className='Hero-H2'>Devang Manjramkar</h1>
+      <br />
+      <Typed strings={['I am Web Developer']} typeSpeed={44} loop className='type' />
       <div className='hero-btns'>
         <Button
           className='btns'
