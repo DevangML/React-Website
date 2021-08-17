@@ -11,18 +11,17 @@ import Icofont from 'react-icofont';
 
 function App() {
   return (
-       <>
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} /> 
-          <Route path='/gallary' component={Gallary} />
-          <Route path='/projects' component={Projects} />
-          <Route path='/timeline' component={Timedline} />
-          <Route path='/contactme' component={ContactMe} />
-        </Switch>
-      </Router>   
-    </>
+
+        <Router>
+          <Navbar />
+          <Switch>
+            <Route path='/' exact component={Home} />
+            <Route path='/gallary' component={Gallary} />
+            <Route path='/projects' component={Projects} />
+            <Route path='/timeline' component={Timedline} />
+            <Route path='/contactme' component={ContactMe} />
+          </Switch>
+        </Router>
   );
 }
 

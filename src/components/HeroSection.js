@@ -9,7 +9,7 @@ import Typed from 'react-typed';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
+      <video src='/videos/video-2.mov' autoPlay loop muted />
       <br/><br/><br/><br/><br/>
       <h1 className='Hero-H2'>Devang Manjramkar</h1>
       <br />
