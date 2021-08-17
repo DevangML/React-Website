@@ -77,21 +77,26 @@ background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, F
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: beige;
-    border-radius: 50px;
-    width: 80%;
-    margin: 2em;
+    width: 100%;
     padding: 2em;
     overflow: hidden;
+    flex: 1;
 }
 
 .form-cont{
     padding:2em;
-    width:30%;
+    width:100%;
+    background-color: beige;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
 }
 
 form{padding:2em;
-  width:30%;}
+  width:100%;}
 
 .form-img{height: 30em;
 width: 30em;}
