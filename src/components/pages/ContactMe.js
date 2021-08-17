@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../App.css';
-import './ContactMe.css'
 
 export default function ContactMe() {
   return (
+    <div classNmae='contact-sup-cont'>
     <div className='contact-container'>
       <br/><br/>
       <div className='lft-cont'>
-        <img src="/images/tim-bg.png" alt='imh' width='500px' height='200px'/>
+        <img src="/images/tim-bg.png" alt='imh' className='form-img'/>
       </div>
       <div className='form-cont'>
         <form>
@@ -26,6 +26,7 @@ export default function ContactMe() {
           <button type="submit">Submit</button>
         </form>
       </div>
+    </div>
     </div>
   );
 }

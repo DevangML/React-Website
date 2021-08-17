@@ -2,7 +2,6 @@ import React from "react";
 import "../../App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from "react-responsive-carousel";
-import './Gallary.css'
 
 export default function Gallary() {
   return (
@@ -13,43 +12,43 @@ export default function Gallary() {
       <br/>
       <Carousel infiniteLoop autoPlay stopOnHover transitionTime='500' className='Car' showStatus={false}>
         <div>
-          <img src="./images/Cert/AI.jpeg" />
+          <img src="./images/Cert/AI.jpeg" className='gal-img'/>
           <p className="legend">Legend 1</p>
         </div>
         <div>
-          <img src="./images/Cert/C.jpeg" />
+          <img src="./images/Cert/C.jpeg" className='gal-img'/>
           <p className="legend">Legend 2</p>
         </div>
         <div>
-          <img src="./images/Cert/C++.jpeg" />
+          <img src="./images/Cert/C++.jpeg" className='gal-img'/>
           <p className="legend">Legend 3</p>
         </div>
         <div>
-          <img src="./images/Cert/C++_DSC.jpeg" />
+          <img src="./images/Cert/C++_DSC.jpeg" className='gal-img'/>
           <p className="legend">Legend 3</p>
         </div>
         <div>
-          <img src="./images/Cert/EF-SET.jpeg" />
+          <img src="./images/Cert/EF-SET.jpeg" className='gal-img'/>
           <p className="legend">Legend 3</p>
         </div>
         <div>
-          <img src="./images/Cert/ISA-C.jpeg" />
+          <img src="./images/Cert/ISA-C.jpeg" className='gal-img'/>
           <p className="legend">Legend 3</p>
         </div>
         <div>
-          <img src="./images/Cert/Python-Beg.jpeg" />
+          <img src="./images/Cert/Python-Beg.jpeg" className='gal-img'/>
           <p className="legend">Legend 3</p>
         </div>
         <div>
-          <img src="./images/Cert/Python-IEEE.jpeg" />
+          <img src="./images/Cert/Python-IEEE.jpeg" className='gal-img'/>
           <p className="legend">Legend 3</p>
         </div>
         <div>
-          <img src="./images/Cert/Python-Int.jpeg" />
+          <img src="./images/Cert/Python-Int.jpeg" className='gal-img'/>
           <p className="legend">Legend 3</p>
         </div>
         <div>
-          <img src="./images/Cert/VishwaConclave.jpeg" />
+          <img src="./images/Cert/VishwaConclave.jpeg" className='gal-img'/>
           <p className="legend">Legend 3</p>
         </div>
       </Carousel>
