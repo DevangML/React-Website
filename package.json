@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.60",
     "@testing-library/jest-dom": "^4.2.4",
@@ -12,6 +11,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.0.2",
     "create-react-app": "^4.0.3",
+    "express": "4.17.1",
     "react-icofont": "^1.0.19",
     "react-icons": "^4.2.0",
     "react-responsive-carousel": "^3.2.20",
