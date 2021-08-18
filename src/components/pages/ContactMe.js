@@ -1,22 +1,38 @@
 import React, {useState} from 'react'
+import Axios from 'axios';
 
 function ContactMe() {
   const [user,setUser] = useState({
-    user:'',email:'',phone:'',message:''
+    name:'',
+    email:'',
+    phone:'',
+    message:''
   });
 
-  let name, value;
+
   const handleInputs = (e) => {
-    name = e.target.name;
-    value = e.target.value;
-    setUser({...user, [name]:value})
-    console.log(e);
+   const newuser = {...user}
+   newuser[e.target.name] = e.target.value
+   setUser(newuser)
+   console.log(newuser)
   }
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e);
+    Axios.post(url,{
+      name: user.name,
+      email: user.email,
+      phone: user.phone,
+      message: user.message,  
+    })
+    .then(res=>{
+      console.log(res.user)
+    })
+
   }
+
+  const url =""
+  
 
   return (
     <div className="container">
@@ -65,7 +81,7 @@ function ContactMe() {
             <form action="index.html" autocomplete="off">
               <h3 className="title">Contact Me</h3>
               <div className="input-container">
-               <input type="text" name="user" className="input" placeholder='Username' value={user.user} onChange={handleInputs}/>
+               <input type="text" name="name" className="input" placeholder='Name' value={user.name} onChange={handleInputs}/>
               </div>
               <div className="input-container">
                 <input type="email" name="email" className="input" placeholder='Email' value={user.email} onChange={handleInputs}/>
