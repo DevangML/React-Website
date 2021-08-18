@@ -19,19 +19,16 @@ function ContactMe() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    Axios.post(url,{
-      name: user.name,
-      email: user.email,
-      phone: user.phone,
-      message: user.message,  
-    })
-    .then(res=>{
-      console.log(res.user)
-    })
-
+      Axios.post(url,
+      {name: user.name, email: user.email, phone: user.phone, message: user.message},)
+      .then(res => {
+        console.log(res);
+        console.log(res.user);
+        window.location = "/contact"
+      })  
   }
 
-  const url =""
+  const url = "http://127.0.0.1:8000/contact"
   
 
   return (
@@ -46,20 +43,20 @@ function ContactMe() {
             <div className="info">
               <div className="information">
                 <img src="img/location.png" className="icon" alt="" />
-                <p>Pune,</p>
+                <p className='cont-p'>Pune,</p>
               </div>
               <div className="information">
                 <img src="img/email.png" className="icon" alt="" />
-                <p>devangmanjramkar@gmail.com</p>
+                <p className='cont-p'>devangmanjramkar@gmail.com</p>
               </div>
               <div className="information">
                 <img src="img/phone.png" className="icon" alt="" />
-                <p>8806113283</p>
+                <p className='cont-p'>8806113283</p>
               </div>
             </div>
 
             <div className="social-media">
-              <p>Connect with me :</p>
+              <p className='cont-p'>Connect with me :</p>
               <div className="social-icons">
                 <a href="https://github.com/DevangML" target='_blank'>
                   <i className="fab fa-github"></i>
@@ -75,8 +72,6 @@ function ContactMe() {
           </div>
 
           <div className="contact-form">
-            <span className="circle one"></span>
-            <span className="circle two"></span>
 
             <form action="index.html" autocomplete="off">
               <h3 className="title">Contact Me</h3>
@@ -92,7 +87,7 @@ function ContactMe() {
               <div className="input-container textarea">
                 <textarea name="message" className="input" placeholder='Message' value={user.message} onChange={handleInputs}></textarea>
               </div>
-              <input type="submit" value="Send" className="btn" />
+              <input type="submit" value="Send" className="cont-btn" />
             </form>
           </div>
         </div>
