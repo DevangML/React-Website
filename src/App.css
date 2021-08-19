@@ -697,6 +697,7 @@ video {
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
+  background: url(/videos/video-1.mp4);
 }
 
 * {
@@ -761,7 +762,7 @@ section {
   background: #1c1b1b;
   color: white;
   text-align: justify;
-  padding-left: 2em;
+  padding-left: 1.2em;
   padding-bottom: 1.1em;
   padding-right: 1.2em;
   overflow: hidden;
@@ -828,7 +829,6 @@ section {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #12fff7, #b3ffab);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  min-width: 100vw;
 }
 
 h1 {
