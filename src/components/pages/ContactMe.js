@@ -1,3 +1,4 @@
+import Axios from 'axios';
 import React, { useState } from 'react'
 
 function ContactMe() {
@@ -8,29 +9,28 @@ function ContactMe() {
     message: ''
   });
 
-  let name, value;
+
   const handleInputs = (e) => {
-    console.log(e)
-    name = e.target.name;
-    value = e.target.value;
-
-    setUser({ ...user, [name]: value });
+    const newuser ={...user}
+    newuser[e.target.name] = e.target.value
+    setUser(newuser)
+    console.log(newuser)
   }
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault()
-    const { name, email, phone, message } = user;
 
-    const res = await fetch("localhost:8000/contact", {
-      method:"POST",
-      headers:{
-        "Content-Type": "application/json"
-      },
-      body:JSON.stringify({
-        name, email, phone, message
-      })
-    });
-  }
+    Axios.post(url,{
+      name: user.name,
+      email: user.email,
+      phone: user.phone,
+      message: user.message
+    })
+    .then(res=>{
+      console.log(res.user)
+    
+  })
+}
 
 
 
@@ -39,7 +39,7 @@ function ContactMe() {
 
   return (
     <div className="container">
-      <div className="form" onSubmit={handleSubmit}>
+      <div className="form" >
         <div className="contact-info">
           <h3 className="title">Let's get in touch</h3>
           <p className="text">
@@ -79,7 +79,7 @@ function ContactMe() {
 
         <div className="contact-form">
 
-          <form method='POST' onSubmit={handleSubmit}>
+          <form method='POST' action='http://localhost:8000/contact' onSubmit={handleSubmit}>
             <h3 className="title">Contact Me</h3>
             <div className="input-container">
               <input type="text" name="name" className="input" placeholder='Name' value={user.name} onChange={handleInputs} />
