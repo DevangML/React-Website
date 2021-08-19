@@ -48,8 +48,8 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  width: 100%;
 }
 
 .gal-h1 {
@@ -71,8 +71,8 @@
   background-position: center;
   background-repeat: no-repeat;
   padding: 2em;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  width: 100%;
 }
 
 .proj-h1 {
@@ -434,8 +434,8 @@ textarea.input {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
-  height: 150vh;
+  min-height: 100vh;
+  width: 100%;
 }
 
 /*Button Section*/
@@ -593,10 +593,13 @@ textarea.input {
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
