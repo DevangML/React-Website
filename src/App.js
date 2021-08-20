@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from './components/pages/Projects';
 import Gallary from './components/pages/Gallary';
 import Timedline from './components/pages/Timeline';
