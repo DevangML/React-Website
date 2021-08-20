@@ -9,14 +9,14 @@ function Cards() {
   }, []);
   return (
     <div className="cards" data-aos="fade-up" data-aos-easing="ease-out-cubic">
-      <h1 className="Head">About Me</h1>
+      <h1 className="Head" data-aos="fade-up" data-aos-easing="ease-out-cubic">About Me</h1>
       <br />
-      <h2 align="center">
+      <h2 align="center" data-aos="fade-up" data-aos-easing="ease-out-cubic">
         I am Executive Committee Member at IEEE Students' Branch, VIT Pune
       </h2>
       <br />
       <br />
-      <p className='Para'>
+      <p className='Para' data-aos="fade-up" data-aos-easing="ease-out-cubic">
         I am an engineering student at Vishwakarma Institute Of Technology,
         Pune. I study in the AI-DS branch. I love Machine Learning, artificial
         intelligence and web development. I am a Linux enthusiast and like to
@@ -27,16 +27,16 @@ function Cards() {
         Pune.
       </p>
       <br />
-      <h1 className='Head'>Skills I have</h1>
+      <h1 className='Head' data-aos="fade-up" data-aos-easing="ease-out-cubic">Skills I have</h1>
       <br/><br/>
       <div className='Cardcont' >
-        <img data-aos="zoom-in" className='Img' src="./images/C.png" width="4em" height="4em" />
-        <img data-aos="zoom-in" className='Img' src="./images/C++.png" width="4em" height="4em" />
-        <img data-aos="zoom-in" className='Img' src="./images/html.png" width="4em" height="4em" />
-        <img data-aos="zoom-in" className='Img' src="./images/css.png" width="4em" height="4em" />
-        <img data-aos="zoom-in" className='Img' src="./images/JS.png" width="4em" height="4em" />
-        <img data-aos="zoom-in" className='Img' src="./images/python.png" width="4em" height="4em" />
-        <img data-aos="zoom-in" className='Img' src="./images/mern.png" width="4em" height="4em" />
+        <img data-aos="zoom-in" data-aos-easing="ease-out-cubic" className='Img' src="./images/C.png" width="4em" height="4em" />
+        <img data-aos="zoom-in" data-aos-easing="ease-out-cubic" className='Img' src="./images/C++.png" width="4em" height="4em" />
+        <img data-aos="zoom-in" data-aos-easing="ease-out-cubic" className='Img' src="./images/html.png" width="4em" height="4em" />
+        <img data-aos="zoom-in" data-aos-easing="ease-out-cubic" className='Img' src="./images/css.png" width="4em" height="4em" />
+        <img data-aos="zoom-in" data-aos-easing="ease-out-cubic" className='Img' src="./images/JS.png" width="4em" height="4em" />
+        <img data-aos="zoom-in" data-aos-easing="ease-out-cubic" className='Img' src="./images/python.png" width="4em" height="4em" />
+        <img data-aos="zoom-in" data-aos-easing="ease-out-cubic" className='Img' src="./images/mern.png" width="4em" height="4em" />
       </div>
     </div>
   );

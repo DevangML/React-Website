@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 
-
-
-
 function Footer() {
+  useEffect(() => {
+    AOS.init({duration : 700});
+    AOS.refresh();
+  }, []);
   return (
     <div>
       <section id="contact" className="contact">
-        <div className="section-title">
+        <div className="section-title" >
           <h2 className="heading">Contact</h2>
           <p className='Foot-Para'>
             For any business enquiries get in touch with me through my address
