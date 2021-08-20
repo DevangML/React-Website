@@ -437,6 +437,14 @@ textarea.input {
 
 /*Timeline Section*/
 
+.form{
+  transition: transform .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.form:hover{
+  transform: scale(1.09);
+}
+
 .tim-head {
   font-size: 5rem;
   text-align: center;
