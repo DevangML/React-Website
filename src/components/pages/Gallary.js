@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "../../App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from "react-responsive-carousel";
 
 export default function Gallary() {
+  useEffect(() => {
+    AOS.init({duration : 600});
+    AOS.refresh();
+  }, []);
   return (
-    <div class="gallary">
+    <div class="gallary" data-aos="zoom-out" data-aos-easing="ease-out-cubic">
       <div>
         <h1 className='gal-h1'>My Certificates</h1>
       </div>

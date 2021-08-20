@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Timeline() {
+  useEffect(() => {
+    AOS.init({duration : 700});
+    AOS.refresh();
+  }, []);
   return (
     <div className='tim-cont'>
       <section className="timeline">
         <h1 className='tim-h1'>Timeline of my life</h1>
         <div className="demo-card-wrapper">
-          <div className="demo-card demo-card--step1">
+          <div className="demo-card demo-card--step1" data-aos="fade-right">
             <div className="head">
               <div className="number-box">
                 <span>01</span>
@@ -25,7 +31,7 @@ function Timeline() {
             </div>
           </div>
 
-          <div className="demo-card demo-card--step2">
+          <div className="demo-card demo-card--step2" data-aos="fade-left">
             <div className="head">
               <div className="number-box">
                 <span>02</span>
@@ -44,7 +50,7 @@ function Timeline() {
             </div>
           </div>
 
-          <div className="demo-card demo-card--step3">
+          <div className="demo-card demo-card--step3" data-aos="fade-right">
             <div className="head">
               <div className="number-box">
                 <span>03</span>
@@ -63,7 +69,7 @@ function Timeline() {
             </div>
           </div>
 
-          <div className="demo-card demo-card--step4">
+          <div className="demo-card demo-card--step4" data-aos="fade-left">
             <div className="head">
               <div className="number-box">
                 <span>04</span>
@@ -82,7 +88,7 @@ function Timeline() {
             </div>
           </div>
 
-          <div className="demo-card demo-card--step5">
+          <div className="demo-card demo-card--step5" data-aos="fade-right">
             <div className="head">
               <div className="number-box">
                 <span>05</span>
