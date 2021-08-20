@@ -103,7 +103,7 @@ html{background-color: rgb(216, 216, 216);z-index: -5;}
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("./components/pages/image/3.jpg");
+  background: url("./components/pages/image/3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -922,6 +922,15 @@ textarea.input {
   color: whitesmoke;
   font-size: 3vw;
 
+}
+
+.hero-anchor{
+  background-color: rgb(68, 68, 68);
+  border-radius: 50px;
+  color: yellow;
+  font-size: 2em;
+  padding: 0.5em;
+  text-decoration: none;
 }
 
 .Hero-H2 {
