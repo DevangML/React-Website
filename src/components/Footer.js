@@ -1,39 +1,36 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Button } from "./Button";
-import { Link } from "react-router-dom";
 
 function Footer() {
   useEffect(() => {
-    AOS.init({duration : 700});
+    AOS.init({ duration: 900 });
     AOS.refresh();
   }, []);
   return (
-    <div>
-      <section id="contact" className="contact">
-        <div className="section-title" >
-          <h2 className="heading">Contact</h2>
-          <p className='Foot-Para'>
-            For any business enquiries get in touch with me through my address
-            and email-id
-          </p>
-        </div>
-
-        <div className="address">
-          <i className="icofont-google-map"></i>
-          <h4 id="locc">Location: Pune, MH, IN</h4>
-        </div>
-        <br />
-        <div className="email">
-          <i className="icofont-envelope"></i>
-          <h4 id="ml">Email: devang.manjramkar20@gmail.com</h4>
-        </div>
-        <br/>
-        <iframe title="location" src="https://maps.google.com/maps?q=Pune&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
-      </section>
+    <div className="Foot" data-aos="fade-up">
+      <h1 className="Head" data-aos="fade-up">Contact</h1>
+      <br />
+      <h2 align="center" data-aos="fade-up" >
+        For any business enquiries get in touch with me through my address
+        and email-id
+      </h2>
+      <br />
+      <br />
+      <div className="address" data-aos="fade-up">
+        <i className="icofont-google-map" data-aos="fade-up"></i>
+        <h4 id="locc" data-aos="fade-up">Location: Pune, MH, IN</h4>
+      </div>
+      <br />
+      <div className="email" data-aos="fade-up">
+        <i className="icofont-envelope" data-aos="fade-up"></i>
+        <h4 id="ml" data-aos="fade-up">Email: devang.manjramkar20@gmail.com</h4>
+      </div>
+      <br />
+      <iframe data-aos="fade-up" title="location" src="https://maps.google.com/maps?q=Pune&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
+      <br />
     </div>
-  );
-}
+  )
+};
 
 export default Footer;
