@@ -11,7 +11,7 @@ export default function Gallary() {
     AOS.refresh();
   }, []);
   return (
-    <div class="gallary" data-aos="zoom-out" data-aos-easing="ease-out-cubic">
+    <div class="gallary" data-aos="zoom-out" data-aos-easing="ease-out-quart">
       <div>
         <h1 className='gal-h1'>My Certificates</h1>
       </div>

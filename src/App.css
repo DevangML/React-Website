@@ -437,6 +437,18 @@ textarea.input {
 
 /*Timeline Section*/
 
+.tim-head {
+  font-size: 5rem;
+  text-align: center;
+  color: #fcedd8;
+  font-family: "Niconne", cursive;
+  font-weight: 700;
+  text-shadow: 5px 5px 0px #eb452b, 10px 10px 0px #efa032, 15px 15px 0px #46b59b,
+    20px 20px 0px #017e7f, 25px 25px 0px #052939, 30px 30px 0px #c11a2b,
+    35px 35px 0px #c11a2b, 40px 40px 0px #c11a2b, 45px 45px 0px #c11a2b;
+  margin-bottom: 2rem;
+}
+
 .timeline {
   background: rgb(131, 58, 180);
   background: -moz-linear-gradient(
@@ -942,13 +954,14 @@ textarea.input {
   font-size: 3vw;
 }
 
-
 a {
   text-decoration: none;
   color: inherit;
 }
 
-.aspan{font-weight: bolder;}
+.aspan {
+  font-weight: bolder;
+}
 
 .cta {
   position: relative;
@@ -1092,22 +1105,43 @@ iframe {
   margin-top: -10%;
 }
 
-.Headfoo{
+.Headfoo {
   color: whitesmoke;
-  font-size: 3em;
+  text-shadow: 3px -2px 2px rgba(187, 0, 0, 1);
+  font-size: 4em;
+  text-align: center;
 }
 
-.Headfoo2{
+.Headfoo2 {
   color: whitesmoke;
+  text-align: justify;
   font-size: 1.6em;
 }
 
-.Addfoo{color: whitesmoke;font-size: 1.2em;}
-.Mailfoo{color: whitesmoke;font-size: 1.2em;}
-.icofont-google-map{color: whitesmoke;font-size: 1.2em;}
-.locc{color: whitesmoke;font-size: 1.2em;}
-.icofont-envelope{color: whitesmoke;font-size: 1.2em;}
-.ml{color: whitesmoke;font-size: 1.2em;}
+.Addfoo {
+  color: whitesmoke;
+  font-size: 1.2em;
+}
+.Mailfoo {
+  color: whitesmoke;
+  font-size: 1.2em;
+}
+.icofont-google-map {
+  color: whitesmoke;
+  font-size: 1.2em;
+}
+.locc {
+  color: whitesmoke;
+  font-size: 1.2em;
+}
+.icofont-envelope {
+  color: whitesmoke;
+  font-size: 1.2em;
+}
+.ml {
+  color: whitesmoke;
+  font-size: 1.2em;
+}
 
 /*Dfooter Section*/
 
@@ -1121,7 +1155,7 @@ iframe {
   background: #161616;
   width: 100vw;
   height: 10vw;
-  padding-top:0.9em;
+  padding-top: 0.9em;
 }
 
 /*Cards Section*/

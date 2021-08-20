@@ -4,13 +4,13 @@ import "aos/dist/aos.css";
 
 function Timeline() {
   useEffect(() => {
-    AOS.init({duration : 700});
+    AOS.init({ duration: 700 });
     AOS.refresh();
   }, []);
   return (
-    <div className='tim-cont'>
+    <div className="tim-cont">
       <section className="timeline">
-        <h1 className='tim-h1'>Timeline of my life</h1>
+        <div className='tim-head'>Timeline Of My Life</div>
         <div className="demo-card-wrapper">
           <div className="demo-card demo-card--step1" data-aos="fade-right">
             <div className="head">
