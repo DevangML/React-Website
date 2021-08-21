@@ -1,17 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import VIT from '../components/pages/image/VIT.svg'
+import IEEE from '../assets/videos/IEEE.mp4'
 
 function Footer() {
+  useEffect(() => {
+    AOS.init({duration : 600});
+    AOS.refresh();
+  }, []);
   return (
     <div className="Foot">
-      <h1 className="retroshadow foot-h1">I Study At</h1>
+      <h1 className="retroshadow foot-h1" data-aos="slide-up">I Study At</h1>
       <br/>
-        <img src={VIT} className='foot-img'/><br/>
-        <figcaption>Vishwakarma Institute of Technology</figcaption>
-        <h1 className="retroshadow foot-h1">Work At</h1>
+        <img src={VIT} className='foot-img' data-aos="slide-up"/><br/>
+        <figcaption data-aos="slide-up">Vishwakarma Institute of Technology</figcaption>
+        <br/><br/>
+        <h1 className="retroshadow foot-h1" data-aos="slide-up">Work At</h1>
       <br/>
-        <img src={VIT} className='foot-img'/><br/>
-        <figcaption>IEEE Student's branch, VIT Pune</figcaption>
+        <video src={IEEE} className='foot-img' autoPlay loop muted disablePictureInPicture data-aos="slide-up"/><br/>
 
     </div>
   );

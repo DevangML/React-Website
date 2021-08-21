@@ -10,7 +10,7 @@ function HeroSection() {
       <br />
       <br />
       <br />
-      <h1 className="Hero-H2">Devang Manjramkar</h1>
+      <h1 className="Hero-H2">Devang G. Manjramkar</h1>
       <br />
       <Typed
         strings={["I am Web Developer"]}
