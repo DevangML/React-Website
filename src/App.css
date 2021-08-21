@@ -800,12 +800,8 @@ textarea.input {
 
 .navbar {
   background: #232526;
-  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #414345, #232526);
-  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #414345, #232526);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1179,12 +1175,14 @@ figcaption {
 }
 
 .footer {
-  background: #161616;
   min-width: 100vw;
   min-height: 10vw;
   padding-top: 0.9rem;
   padding-bottom: 0.4rem;
   margin-top: -116px;
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
 }
 
 /*Cards Section*/
