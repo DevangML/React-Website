@@ -448,11 +448,11 @@ textarea.input {
 
 /*Timeline Section*/
 
-.form{
-  transition: transform .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+.form {
+  transition: transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-.form:hover{
+.form:hover {
   transform: scale(1.09);
 }
 
@@ -1111,17 +1111,56 @@ a {
 
 /*Footer Section*/
 
-.Foot{padding-left: 1.3em;padding-right: 1.3em;padding-bottom: 1.3em;padding-top: 0;background: rgba(52, 53, 255, 1.0);
-  background: -webkit-linear-gradient(top left, rgba(52, 53, 255, 1.0), rgba(255, 245, 75, 1.0));
-  background: -moz-linear-gradient(top left, rgba(52, 53, 255, 1.0), rgba(255, 245, 75, 1.0));
-  background: linear-gradient(to bottom right, rgba(52, 53, 255, 1.0), rgba(255, 245, 75, 1.0));margin-top: -2.5rem;}
-.foot-img-cont{overflow: hidden;border-radius: 50px;max-width: 100vw;max-height: 60vh;}
+.Foot {
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  padding-bottom: 1.3em;
+  padding-top: 0;
+  background: rgba(52, 53, 255, 1);
+  background: -webkit-linear-gradient(
+    top left,
+    rgba(52, 53, 255, 1),
+    rgba(255, 245, 75, 1)
+  );
+  background: -moz-linear-gradient(
+    top left,
+    rgba(52, 53, 255, 1),
+    rgba(255, 245, 75, 1)
+  );
+  background: linear-gradient(
+    to bottom right,
+    rgba(52, 53, 255, 1),
+    rgba(255, 245, 75, 1)
+  );
+  margin-top: -2.5rem;
+}
+.foot-img {
+  border-radius: 50px;
+  object-fit: cover;
+  height: 60vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+}
 .foot-h1 {
   font-size: 4em;
   text-align: center;
   text-rendering: optimizeLegibility;
 }
 
+figcaption{background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+  border-radius: 50px;
+  width: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em;
+}
 
 /*Dfooter Section*/
 
