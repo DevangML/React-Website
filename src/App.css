@@ -45,6 +45,18 @@ html {
 
 /*Gallary Section*/
 
+.gal-h1 {
+  font-size: 4em;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
+h1.retroshadow {
+  color: #2c2c2c;
+  letter-spacing: 0.05em;
+  text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
 .gallary {
   background: #ffe259;
   background: -webkit-linear-gradient(to right, #ffa751, #ffe259);
@@ -84,17 +96,16 @@ html {
 }
 
 .proj-h1 {
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
-  text-shadow: 0px 3px 0px #b2a98f, 0px 14px 10px rgba(0, 0, 0, 0.15),
-    0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1);
+  text-rendering: optimizeLegibility;
 }
 
 /*Contact Me Section*/
 
 .container {
   position: relative;
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   padding: 2rem;
   background-color: #fafafa;
@@ -1037,11 +1048,12 @@ a {
   align-items: center;
   overflow: hidden;
   object-fit: contain;
-  background: url(./components/pages/image/hero.jpg);
+  background: url(./components/pages/image/hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  background-attachment: fixed;
   z-index: -2;
 }
 

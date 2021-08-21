@@ -1,6 +1,13 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import C from '../assets/images/C.png'
+import Cp from '../assets/images/C++.png'
+import CS from '../assets/images/css.png'
+import ht from '../assets/images/html.png'
+import J from '../assets/images/JS.png'
+import mern from '../assets/images/mern.png'
+import python from '../assets/images/python.png'
 
 function Cards() {
   useEffect(() => {
@@ -30,13 +37,13 @@ function Cards() {
       <h1 className='Head' data-aos="slide-up" >Skills I have</h1>
       <br/><br/>
       <div className='Cardcont' >
-        <img data-aos="slide-up"  className='Img' src="./images/C.png" width="4em" height="4em" />
-        <img data-aos="slide-up"  className='Img' src="./images/C++.png" width="4em" height="4em" />
-        <img data-aos="slide-up"  className='Img' src="./images/html.png" width="4em" height="4em" />
-        <img data-aos="slide-up"  className='Img' src="./images/css.png" width="4em" height="4em" />
-        <img data-aos="slide-up"  className='Img' src="./images/JS.png" width="4em" height="4em" />
-        <img data-aos="slide-up"  className='Img' src="./images/python.png" width="4em" height="4em" />
-        <img data-aos="slide-up"  className='Img' src="./images/mern.png" width="4em" height="4em" />
+        <img data-aos="slide-up"  className='Img' src={C} width="4em" height="4em" />
+        <img data-aos="slide-up"  className='Img' src={Cp} width="4em" height="4em" />
+        <img data-aos="slide-up"  className='Img' src={CS} width="4em" height="4em" />
+        <img data-aos="slide-up"  className='Img' src={ht} width="4em" height="4em" />
+        <img data-aos="slide-up"  className='Img' src={J} width="4em" height="4em" />
+        <img data-aos="slide-up"  className='Img' src={python} width="4em" height="4em" />
+        <img data-aos="slide-up"  className='Img' src={mern} width="4em" height="4em" />
       </div>
     </div>
   );

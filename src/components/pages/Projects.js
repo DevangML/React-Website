@@ -4,6 +4,10 @@ import "aos/dist/aos.css";
 import "../../App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import ASC from '../../assets/images/Proj/ASC.png'
+import Pandemic from '../../assets/images/Proj/Pandemic.svg'
+import Phoenix from '../../assets/images/Proj/Phoenix.svg'
+import WebSite from '../../assets/images/Proj/WebSite.png'
 
 export default function Services() {
   useEffect(() => {
@@ -13,7 +17,7 @@ export default function Services() {
   return (
     <div className="projects" data-aos="zoom-out" data-aos-easing="ease-out-cubic">
       <div >
-        <h1 className='proj-h1'>My Projects</h1>
+      <h1 className='retroshadow proj-h1'>My Projects</h1>
       </div>
       
       <br />
@@ -32,7 +36,7 @@ export default function Services() {
           target="_blank"
         >
           <div>
-            <img src="./images/Proj/ASC.png" />
+            <img src={ASC} />
             <p className="legend">Advanced Scientific Calculator</p>
           </div>
         </a>
@@ -41,19 +45,19 @@ export default function Services() {
           target="_blank"
         >
           <div>
-            <img src="./images/Proj/WebSite.png" />
+            <img src={Pandemic} />
             <p className="legend">Portfolio Website</p>
           </div>
         </a>
         <a href="https://github.com/DevangML/Pandemic-Warrior" target="_blank">
           <div>
-            <img src="./images/Proj/Pandemic.svg" />
+            <img src={Phoenix}/>
             <p className="legend">Pandemic Warrior</p>
           </div>
         </a>
         <a href="https://github.com/DevangML/Phoenix-The-Virtual-Assistant" target="_blank">
           <div>
-            <img src="./images/Proj/Phoenix.svg" />
+            <img src={WebSite} />
             <p className="legend">Phoenix-The Virtual Assistant</p>
           </div>
         </a>

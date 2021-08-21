@@ -7,7 +7,6 @@ import Projects from './components/pages/Projects';
 import Gallary from './components/pages/Gallary';
 import Timedline from './components/pages/Timeline';
 import ContactMe from './components/pages/ContactMe'
-import Icofont from 'react-icofont';
 
 
 function App() {
