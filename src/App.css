@@ -490,7 +490,7 @@ textarea.input {
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#ffe516",GradientType=1);
   min-height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 @media (min-width: 1000px) {
@@ -1111,57 +1111,17 @@ a {
 
 /*Footer Section*/
 
-iframe {
-  border: 0;
-  width: 100%;
-  height: 20vw;
-  border-radius: 1.875em;
-}
-
-.Foot {
-  background-color: #232526;
-  padding: 2em;
-  width: 100vw;
-  margin-top: -10%;
-}
-
-.Headfoo {
-  color: whitesmoke;
-  text-shadow: 3px -2px 2px rgba(187, 0, 0, 1);
+.Foot{padding-left: 1.3em;padding-right: 1.3em;padding-bottom: 1.3em;padding-top: 0;background: rgba(52, 53, 255, 1.0);
+  background: -webkit-linear-gradient(top left, rgba(52, 53, 255, 1.0), rgba(255, 245, 75, 1.0));
+  background: -moz-linear-gradient(top left, rgba(52, 53, 255, 1.0), rgba(255, 245, 75, 1.0));
+  background: linear-gradient(to bottom right, rgba(52, 53, 255, 1.0), rgba(255, 245, 75, 1.0));margin-top: -2.5rem;}
+.foot-img-cont{overflow: hidden;border-radius: 50px;max-width: 100vw;max-height: 60vh;}
+.foot-h1 {
   font-size: 4em;
   text-align: center;
+  text-rendering: optimizeLegibility;
 }
 
-.Headfoo2 {
-  color: whitesmoke;
-  text-align: justify;
-  font-size: 1.6em;
-}
-
-.Addfoo {
-  color: whitesmoke;
-  font-size: 1.2em;
-}
-.Mailfoo {
-  color: whitesmoke;
-  font-size: 1.2em;
-}
-.icofont-google-map {
-  color: whitesmoke;
-  font-size: 1.2em;
-}
-.locc {
-  color: whitesmoke;
-  font-size: 1.2em;
-}
-.icofont-envelope {
-  color: whitesmoke;
-  font-size: 1.2em;
-}
-.ml {
-  color: whitesmoke;
-  font-size: 1.2em;
-}
 
 /*Dfooter Section*/
 
@@ -1173,9 +1133,10 @@ iframe {
 
 .footer {
   background: #161616;
-  width: 100vw;
-  height: 10vw;
-  padding-top: 0.9em;
+  max-width: 100vw;
+  min-height: 10vw;
+  padding-top: 0.9rem;
+  padding-bottom: 0.4rem;
 }
 
 /*Cards Section*/
