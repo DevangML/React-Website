@@ -11,7 +11,7 @@ import python from '../assets/images/python.png'
 
 function Cards() {
   useEffect(() => {
-    AOS.init({duration : 1300});
+    AOS.init({duration : 1000});
     AOS.refresh();
   }, []);
   return (

@@ -6,12 +6,14 @@
   padding: 0;
   font-family: "PT Sans", sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
-  
+  cursor: url("./assets/icons/cursor.png"), url("./assets/icons/cursor.cur"),
+    default !important;
 }
 
 html {
   background-color: rgb(216, 216, 216);
   z-index: -5;
+  scroll-behavior: smooth;
 }
 
 /*Scrollbar Section*/
@@ -19,6 +21,8 @@ html {
 /* width */
 ::-webkit-scrollbar {
   width: 1.1rem;
+  cursor: url("./assets/icons/cursor.png"), url("./assets/icons/cursor.cur");
+  pointer-events: none;
 }
 
 /* Track */
@@ -451,7 +455,6 @@ textarea.input {
 
 .form {
   transition: transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-
 }
 
 .form:hover {
@@ -1146,7 +1149,6 @@ a {
   margin-right: auto;
   width: 90vw;
   object-fit: contain;
-  
 }
 .foot-h1 {
   font-size: 4em;
@@ -1154,7 +1156,8 @@ a {
   text-rendering: optimizeLegibility;
 }
 
-figcaption{background-color: black;
+figcaption {
+  background-color: black;
   color: white;
   font-style: italic;
   padding: 2px;

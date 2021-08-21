@@ -5,8 +5,8 @@ import "../../App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import ASC from '../../assets/images/Proj/ASC.png'
-import Pandemic from '../../assets/images/Proj/Pandemic.svg'
-import Phoenix from '../../assets/images/Proj/Phoenix.svg'
+import Pandemic from '../../assets/images/Proj/Pandemic.png'
+import Phoenix from '../../assets/images/Proj/Phoenix.png'
 import WebSite from '../../assets/images/Proj/WebSite.png'
 
 export default function Services() {
