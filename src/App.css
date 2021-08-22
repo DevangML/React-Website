@@ -1051,10 +1051,10 @@ a {
 }
 
 .foot-img {
-  border-radius: 50px;
-  height: 60vh;
-  width: 90vw;
-  object-fit: cover;
+  border-radius: 30px;
+  height: auto;
+  max-width: 90vw;
+  object-fit: contain;
 }
 
 .foot-h1 {
