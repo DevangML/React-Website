@@ -140,7 +140,7 @@ h1.retroshadow {
   transition: .4s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
-.form:hover{
+.form:hover {
   transform: scale(1.048) translateZ(0) perspective(1px);
   backface-visibility: hidden;
 }
@@ -453,12 +453,14 @@ textarea.input {
 
 /*Timeline Section*/
 
-.tim-cont{background:url('./components/pages/image/tim.png');
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-min-height: 100vh;
-min-width: 100vw;}
+.tim-cont {
+  background: url('./components/pages/image/tim.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+}
 
 .tim-head {
   font-size: 5rem;
@@ -483,7 +485,7 @@ min-width: 100vw;}
     15px 0 45px #80ff00, 17px 0 45px #408000, 17px 2px 45px rgba(38, 77, 0, 0.5);
 }
 
-.tim-cont{
+.tim-cont {
   padding: 2em;
 }
 
@@ -495,6 +497,7 @@ min-width: 100vw;}
   position: relative;
   padding-bottom: 4rem;
 }
+
 .agenda__month:before {
   content: "";
   display: block;
@@ -522,6 +525,7 @@ min-width: 100vw;}
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .agenda__month__title time {
   display: inline-block;
   line-height: 1.2;
@@ -533,7 +537,8 @@ min-width: 100vw;}
   margin: 0;
   position: relative;
 }
-.agenda__list li + li {
+
+.agenda__list li+li {
   margin-top: 4rem;
 }
 
@@ -544,11 +549,13 @@ min-width: 100vw;}
   position: relative;
   background: #fff;
 }
+
 @media (min-width: 1024px) {
   .agenda__item__detail {
     flex-direction: row;
   }
 }
+
 .agenda__item__detail:before {
   content: "";
   display: block;
@@ -559,6 +566,7 @@ min-width: 100vw;}
   transform: rotate(45deg);
   top: calc(50% - 0.6rem);
 }
+
 .agenda__item__detail .horaires {
   flex-basis: 40%;
   display: flex;
@@ -569,6 +577,7 @@ min-width: 100vw;}
   color: #fff;
   background: #009688;
 }
+
 .agenda__item__detail .desc {
   padding: 2rem;
   text-align: left;
@@ -579,41 +588,51 @@ min-width: 100vw;}
   top: -1em;
   right: -1em;
 }
+
 @media (min-width: 640px) {
   .agenda__item .agenda__item__article {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .agenda__item .agenda__item__article:before {
     content: "";
     display: block;
     order: 2;
     flex-basis: 40%;
   }
+
   .agenda__item .agenda__item__date {
     order: 1;
   }
+
   .agenda__item .agenda__item__detail {
     order: 0;
     flex-basis: 40%;
   }
+
   .agenda__item:nth-child(1n+1) .agenda__item__detail:before {
     right: -0.6rem;
   }
+
   .agenda__item:nth-child(1n+2) .agenda__item__article:before {
     order: 0;
   }
+
   .agenda__item:nth-child(1n+2) .agenda__item__detail {
     order: 2;
   }
+
   .agenda__item:nth-child(1n+2) .agenda__item__detail:before {
     left: -0.6rem;
   }
+
   .agenda__item:nth-child(1n+2) .agenda__item__detail .edit__btn {
     left: -1em;
   }
 }
+
 @media (min-width: 640px) and (min-width: 1024px) {
   .agenda__item:nth-child(1n+2) .agenda__item__detail .horaires {
     order: 1;
@@ -631,6 +650,7 @@ min-width: 100vw;}
   color: #fff;
   font-size: 1.4rem;
 }
+
 @media (min-width: 640px) {
   .agenda__item__date {
     width: 4rem;
@@ -879,6 +899,7 @@ a {
   padding: 19px 22px;
   transition: all 0.2s ease;
 }
+
 .cta:before {
   content: "";
   position: absolute;
@@ -891,6 +912,7 @@ a {
   height: 56px;
   transition: all 0.3s ease;
 }
+
 .cta span {
   position: relative;
   font-size: 16px;
@@ -900,6 +922,7 @@ a {
   text-transform: uppercase;
   vertical-align: middle;
 }
+
 .cta svg {
   position: relative;
   top: 0;
@@ -912,16 +935,20 @@ a {
   transform: translateX(-5px);
   transition: all 0.3s ease;
 }
+
 .cta:hover:before {
   width: 100%;
   background: #ffab9d;
 }
+
 .cta:hover svg {
   transform: translateX(0);
 }
+
 .cta:active {
   transform: scale(0.96);
 }
+
 .Hero-H2 {
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
     0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
@@ -952,7 +979,7 @@ a {
   font-family: "Merienda", cursive;
 }
 
-.hero-container > h1 {
+.hero-container>h1 {
   color: #fff;
   font-size: 7vw;
   margin-top: -100px;
@@ -972,7 +999,7 @@ a {
 }
 
 @media screen and (max-width: 960px) {
-  .hero-container > h1 {
+  .hero-container>h1 {
     font-size: 70px;
     margin-top: -150px;
     text-align: center;
@@ -980,13 +1007,13 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  .hero-container > h1 {
+  .hero-container>h1 {
     font-size: 50px;
     margin-top: -100px;
     text-align: center;
   }
 
-  .hero-container > p {
+  .hero-container>p {
     font-size: 30px;
   }
 
@@ -1004,37 +1031,32 @@ a {
 
 .Foot {
   background: rgba(52, 53, 255, 1);
-  background: -webkit-linear-gradient(
-    top left,
-    rgba(52, 53, 255, 1),
-    rgba(255, 245, 75, 1)
-  );
-  background: -moz-linear-gradient(
-    top left,
-    rgba(52, 53, 255, 1),
-    rgba(255, 245, 75, 1)
-  );
-  background: linear-gradient(
-    to bottom right,
-    rgba(52, 53, 255, 1),
-    rgba(255, 245, 75, 1)
-  );
+  background: -webkit-linear-gradient(top left,
+      rgba(52, 53, 255, 1),
+      rgba(255, 245, 75, 1));
+  background: -moz-linear-gradient(top left,
+      rgba(52, 53, 255, 1),
+      rgba(255, 245, 75, 1));
+  background: linear-gradient(to bottom right,
+      rgba(52, 53, 255, 1),
+      rgba(255, 245, 75, 1));
   margin-top: -116px;
   width: 100vw;
   margin-bottom: 7em;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 2em;
 }
+
 .foot-img {
   border-radius: 50px;
-  object-fit: cover;
   height: 60vh;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100vw;
-  object-fit: contain;
+  width: 90vw;
+  object-fit: cover;
 }
+
 .foot-h1 {
   font-size: 4em;
   text-align: center;
