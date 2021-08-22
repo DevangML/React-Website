@@ -61,7 +61,7 @@ function Timeline() {
             <ol class="agenda__list">
               <li class="agenda__item veterinaire">
                 <article class="agenda__item__article">
-                  <span class="agenda__item__date">2020</span>
+                  <span class="agenda__item__date">2021</span>
                   <div class="agenda__item__detail">
                     <div class="horaires">
                       <time datetime=""></time>
@@ -97,17 +97,40 @@ function Timeline() {
                   </div>
                 </article>
               </li>
+            </ol>
+          </div>
+          <div class="agenda__month">
+            <ol class="agenda__list">
               <li class="agenda__item veterinaire">
                 <article class="agenda__item__article">
-                  <span class="agenda__item__date">2020</span>
+                  <span class="agenda__item__date">2021</span>
                   <div class="agenda__item__detail">
                     <div class="horaires">
                       <time datetime=""></time>
                     </div>
                     <div class="desc">
-                      <h3 class="agenda__item__title">VIT</h3>
+                      <h3 class="agenda__item__title">IEEE</h3>
                       <p>
-                        I entered into VIT, Pune
+                        Selected into IEEE Student's Branch, VIT Pune
+                      </p>
+                    </div>
+                    <button class="edit__btn">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                  </div>
+                </article>
+              </li>
+              <li class="agenda__item club">
+                <article class="agenda__item__article">
+                  <span class="agenda__item__date">2021</span>
+                  <div class="agenda__item__detail">
+                    <div class="horaires">
+                      <time datetime=""></time>
+                    </div>
+                    <div class="desc">
+                      <h3 class="agenda__item__title">FY</h3>
+                      <p>
+                        Passed my FY of engineering
                       </p>
                     </div>
                     <button class="edit__btn">

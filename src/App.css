@@ -227,7 +227,9 @@ textarea.input {
 
 .cont-btn {
   padding: 0.6rem 1.3rem;
-  background-color: rgb(63, 63, 63);
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
   align-items: center;
   border: 2px solid #fafafa;
   font-size: 0.95rem;
