@@ -15,7 +15,7 @@ import pytieee from '../../assets/images/Cert/Python-IEEE.jpeg'
 import pytint from '../../assets/images/Cert/Python-Int.jpeg'
 import vishwa from '../../assets/images/Cert/VishwaConclave.jpeg'
 
-export default function Gallary() {
+export default function Gallery() {
   useEffect(() => {
     AOS.init({duration : 600});
     AOS.refresh();

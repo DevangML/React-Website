@@ -11,7 +11,9 @@
 }
 
 html {
-  background-color: rgb(216, 216, 216);
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
   z-index: -5;
   scroll-behavior: smooth;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -463,15 +465,20 @@ textarea.input {
 }
 
 .tim-head {
-  font-size: 5rem;
+  font-size: 7rem;
   text-align: center;
-  color: #fcedd8;
   font-family: "Niconne", cursive;
   font-weight: 700;
-  text-shadow: 5px 5px 0px #eb452b, 10px 10px 0px #efa032, 15px 15px 0px #46b59b,
-    20px 20px 0px #017e7f, 25px 25px 0px #052939, 30px 30px 0px #c11a2b,
-    35px 35px 0px #c11a2b, 40px 40px 0px #c11a2b, 45px 45px 0px #c11a2b;
   margin-bottom: 2rem;
+  background: linear-gradient(90deg, #ff0000 5%, #00B053 15%, #1BAADA 30%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 12px transparent;
+  color: #000; 
+}
+
+@media screen and (max-width:700px){
+  .tim-head{font-size: 5rem;}
+  
 }
 
 
@@ -884,6 +891,8 @@ textarea.input {
   font-size: 2em;
 }
 
+
+
 a {
   text-decoration: none;
   color: inherit;
@@ -893,60 +902,22 @@ a {
   font-weight: bolder;
 }
 
-.cta {
-  position: relative;
-  margin: auto;
-  padding: 19px 22px;
-  transition: all 0.2s ease;
-}
-
-.cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  border-radius: 28px;
-  background: rgba(255, 171, 157, 0.5);
-  width: 56px;
-  height: 56px;
-  transition: all 0.3s ease;
-}
-
-.cta span {
-  position: relative;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 900;
-  letter-spacing: 0.25em;
+.button {
+  text-decoration: none;
+  color: whitesmoke;
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
+  padding: 15px 40px;
+  font-weight: normal;
   text-transform: uppercase;
-  vertical-align: middle;
+  transition: all 0.2s ease-in-out;
+  border-radius: 3em;
 }
 
-.cta svg {
-  position: relative;
-  top: 0;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #111;
-  stroke-width: 2;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-}
-
-.cta:hover:before {
-  width: 100%;
-  background: #ffab9d;
-}
-
-.cta:hover svg {
-  transform: translateX(0);
-}
-
-.cta:active {
-  transform: scale(0.96);
+.glow-button:hover {
+  color: rgb(255, 251, 29);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 
 .Hero-H2 {
@@ -1163,6 +1134,18 @@ h2 {
   border-radius: 1.875em;
   padding: 1.2em;
   font-size: 1.4em;
+}
+
+@media only screen and (max-width: 600px) {
+  .Para {
+    padding: 0.9rem;
+    font-size: 1.02rem;
+    margin-left: -2.375rem;
+    margin-right: -2.375rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.9rem;
+  }
 }
 
 .Head {
