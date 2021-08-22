@@ -14,7 +14,6 @@ function Footer() {
         <h1 className="retroshadow foot-h1">Work At</h1>
       <br/>
         <video src={IEEE} className='foot-img' autoPlay loop muted disablePictureInPicture /><br/>
-
     </div>
   );
 }
