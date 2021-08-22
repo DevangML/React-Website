@@ -456,7 +456,9 @@ textarea.input {
 .tim-cont{background:url('./components/pages/image/tim.png');
 background-repeat: no-repeat;
 background-position: center;
-background-size: cover;}
+background-size: cover;
+min-height: 100vh;
+min-width: 100vw;}
 
 .tim-head {
   font-size: 5rem;
