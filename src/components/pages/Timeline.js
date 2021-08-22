@@ -14,21 +14,20 @@ function Timeline() {
         <div class="row column text-center">
           <div class="agenda__month">
             <h2 class="agenda__month__title">
-              <time datetime="">Sept 2016</time>
+              <time datetime="">START</time>
             </h2>
             <ol class="agenda__list">
               <li class="agenda__item toiletteur">
                 <article class="agenda__item__article">
-                  <span class="agenda__item__date">12</span>
+                  <span class="agenda__item__date">2018</span>
                   <div class="agenda__item__detail">
                     <div class="horaires">
-                      <time datetime="">9:15</time>
+                      <time datetime=""></time>
                     </div>
                     <div class="desc">
-                      <h3 class="agenda__item__title">Agenda item title</h3>
+                      <h3 class="agenda__item__title">Xth</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit.
+                        I passed Xth Standard from CBSE
                       </p>
                     </div>
                     <button class="edit__btn">
@@ -39,16 +38,15 @@ function Timeline() {
               </li>
               <li class="agenda__item">
                 <article class="agenda__item__article">
-                  <span class="agenda__item__date">12</span>
+                  <span class="agenda__item__date">2020</span>
                   <div class="agenda__item__detail">
                     <div class="horaires">
-                      <time datetime="">9:15</time>
+                      <time datetime=""></time>
                     </div>
                     <div class="desc">
-                      <h3 class="agenda__item__title">Agenda item title</h3>
+                      <h3 class="agenda__item__title">XIIth</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit.
+                        I passed my 12th standard from Maharashtra HSC board
                       </p>
                     </div>
                     <button class="edit__btn">
@@ -60,22 +58,18 @@ function Timeline() {
             </ol>
           </div>
           <div class="agenda__month">
-            <h2 class="agenda__month__title">
-              <time datetime="">Oct 2016</time>
-            </h2>
             <ol class="agenda__list">
               <li class="agenda__item veterinaire">
                 <article class="agenda__item__article">
-                  <span class="agenda__item__date">12</span>
+                  <span class="agenda__item__date">2020</span>
                   <div class="agenda__item__detail">
                     <div class="horaires">
-                      <time datetime="">9:15</time>
+                      <time datetime=""></time>
                     </div>
                     <div class="desc">
-                      <h3 class="agenda__item__title">Agenda item title</h3>
+                      <h3 class="agenda__item__title">VIT</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit.
+                        I entered into VIT, Pune
                       </p>
                     </div>
                     <button class="edit__btn">
@@ -86,16 +80,34 @@ function Timeline() {
               </li>
               <li class="agenda__item club">
                 <article class="agenda__item__article">
-                  <span class="agenda__item__date">12</span>
+                  <span class="agenda__item__date">2021</span>
                   <div class="agenda__item__detail">
                     <div class="horaires">
-                      <time datetime="">9:15</time>
+                      <time datetime=""></time>
                     </div>
                     <div class="desc">
-                      <h3 class="agenda__item__title">Agenda item title</h3>
+                      <h3 class="agenda__item__title">FY</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit.
+                        Passed my FY of engineering
+                      </p>
+                    </div>
+                    <button class="edit__btn">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                  </div>
+                </article>
+              </li>
+              <li class="agenda__item veterinaire">
+                <article class="agenda__item__article">
+                  <span class="agenda__item__date">2020</span>
+                  <div class="agenda__item__detail">
+                    <div class="horaires">
+                      <time datetime=""></time>
+                    </div>
+                    <div class="desc">
+                      <h3 class="agenda__item__title">VIT</h3>
+                      <p>
+                        I entered into VIT, Pune
                       </p>
                     </div>
                     <button class="edit__btn">
