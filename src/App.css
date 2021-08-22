@@ -1020,7 +1020,7 @@ a {
     rgba(255, 245, 75, 1)
   );
   margin-top: -116px;
-  min-width: 100vw;
+  width: 100vw;
   margin-bottom: 7em;
   display: inline-block;
   padding: 2em;
