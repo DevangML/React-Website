@@ -1058,7 +1058,7 @@ a {
 }
 
 .foot-h1 {
-  font-size: 4em;
+  font-size: 3.5em;
   text-align: center;
   text-rendering: optimizeLegibility;
 }
@@ -1074,7 +1074,7 @@ figcaption {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.71em;
+  font-size: 1.65em;
 }
 
 /*Dfooter Section*/
