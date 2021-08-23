@@ -124,7 +124,7 @@ h1.retroshadow {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("./components/pages/image/3.png");
+  background: url("./components/pages/image/contact.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -906,7 +906,7 @@ a {
   align-items: center;
   overflow: hidden;
   object-fit: contain;
-  background: url(./components/pages/image/hero.png);
+  background: url(./components/pages/image/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

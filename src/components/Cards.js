@@ -15,7 +15,7 @@ function Cards() {
     AOS.refresh();
   }, []);
   return (
-    <div className="cards" data-aos="fade-up" data-aos-duration="900">
+    <div className="cards">
       <h1 className="Head" data-aos="slide-up">About Me</h1>
       <br />
       <h2 align="center" data-aos="slide-up" >

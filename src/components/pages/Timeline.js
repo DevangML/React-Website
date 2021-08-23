@@ -128,9 +128,9 @@ function Timeline() {
                       <time datetime=""></time>
                     </div>
                     <div class="desc">
-                      <h3 class="agenda__item__title">FY</h3>
+                      <h3 class="agenda__item__title">MERN</h3>
                       <p>
-                        Passed my FY of engineering
+                        I learned MERN stack
                       </p>
                     </div>
                     <button class="edit__btn">

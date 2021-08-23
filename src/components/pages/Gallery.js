@@ -4,16 +4,16 @@ import "aos/dist/aos.css";
 import "../../App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from "react-responsive-carousel";
-import AI from '../../assets/images/Cert/AI.jpeg'
-import Cc from '../../assets/images/Cert/C.jpeg'
-import Cpp from '../../assets/images/Cert/C++.jpeg'
-import Cppd from '../../assets/images/Cert/C++_DSC.jpeg'
-import efset from '../../assets/images/Cert/EF-SET.jpeg'
-import isa from '../../assets/images/Cert/ISA-C.jpeg'
-import pytbeg from '../../assets/images/Cert/Python-Beg.jpeg'
-import pytieee from '../../assets/images/Cert/Python-IEEE.jpeg'
-import pytint from '../../assets/images/Cert/Python-Int.jpeg'
-import vishwa from '../../assets/images/Cert/VishwaConclave.jpeg'
+import AI from '../../assets/images/Cert/AI.jpg'
+import Cc from '../../assets/images/Cert/C.jpg'
+import Cpp from '../../assets/images/Cert/C++.jpg'
+import Cppd from '../../assets/images/Cert/C++_DSC.jpg'
+import efset from '../../assets/images/Cert/EF-SET.jpg'
+import isa from '../../assets/images/Cert/ISA-C.jpg'
+import pytbeg from '../../assets/images/Cert/Python-Beg.jpg'
+import pytieee from '../../assets/images/Cert/Python-IEEE.jpg'
+import pytint from '../../assets/images/Cert/Python-Int.jpg'
+import vishwa from '../../assets/images/Cert/VishwaConclave.jpg'
 
 export default function Gallery() {
   useEffect(() => {
