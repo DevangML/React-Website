@@ -15,6 +15,7 @@ html {
   z-index: -5;
   scroll-behavior: smooth;
   -webkit-font-smoothing: subpixel-antialiased;
+  cursor:url('./assets/icons/cursor.png'), url('./assets/icons/cursor.cur'), default !important;
 }
 
 
