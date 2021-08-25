@@ -562,9 +562,17 @@ textarea.input {
 /*Timeline Section*/
 
 .tim-cont {
-  background: #fe8c00;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #fe8c00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-height: 100vh;
   min-width: 100vw;
 }
@@ -1039,12 +1047,21 @@ a {
   overflow: hidden;
   object-fit: contain;
   background: url(./components/pages/image/hero.jpg);
-  image-rendering:optimizeQuality;
+  image-rendering: optimizeQuality;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
   background-attachment: fixed;
+  filter: none;
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+  mix-blend-mode: luminosity;
+  -webkit-filter: contrast(1.15);
+  filter: contrast(1.10);
+
   z-index: -2;
 }
 
