@@ -111,7 +111,13 @@ h1.retroshadow {
   text-rendering: optimizeLegibility;
 }
 
+@media only screen and (max-width: 750px){
+  .proj-h1{font-size:3em;}
+}
 
+@media only screen and (max-width: 450px){
+  .proj-h1{font-size:2em;}
+}
 /*Contact Me Section*/
 
 .container {
@@ -714,7 +720,7 @@ textarea.input {
   position: sticky;
   top: 0;
   z-index: 999;
-  width: 100vw;
+  min-width: 100vw;
 }
 
 .navbar-container {
@@ -829,7 +835,7 @@ textarea.input {
       position: absolute;
       top: 0;
       right: 0;
-      transform: translate(-100%, 60%);
+      transform: translate(-168%, 54%);
       font-size: 1.8rem;
   }
   .fa-times {
