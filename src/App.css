@@ -66,11 +66,6 @@ html {
   }
 }
 
-h1.retroshadow {
-  color: #2c2c2c;
-  letter-spacing: 0.05em;
-  text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
-}
 
 .gallary {
   background: #f12711;
@@ -94,6 +89,98 @@ h1.retroshadow {
 
 /*Projects Section*/
 
+
+
+#container {
+  width: 500px;
+  margin: auto;
+}
+
+/*Neon*/
+.PP {
+  text-align: center;
+  font-size: 7em;
+  margin: 20px 0 20px 0;
+}
+
+.PAa {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.PP:nth-child(1) .PAa {
+  color: #fff;
+  font-family: Monoton;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+.PP:nth-child(1) .PAa:hover {
+  color: #ff1177;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+.PP .PAa:hover {
+  color: #ffffff;
+}
+/*glow for webkit*/
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+      0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+  }
+}
+
+
+/*glow for mozilla*/
+
+@-moz-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+      0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+  }
+}
+
+
+/*glow*/
+
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+      0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+  }
+}
+
+
+
+
+@media (max-width: 650px) {
+  .Ptcontainer {
+    width: 100%;
+  }
+  .PP {
+    font-size: 3.5em;
+  }
+}
+
 .Pfigcapt {
   background-color: black;
   color: white;
@@ -112,38 +199,22 @@ h1.retroshadow {
   background: #833ab4;
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  padding: 2em;
   min-height: 100vh;
   min-width: 100vw;
-  display: grid;
-  grid-auto-columns: 2;
-  grid-auto-rows: 2;
 }
 
-.proj-h1 {
-  font-size: 4em;
-  text-align: center;
-  text-rendering: optimizeLegibility;
-}
+
 
 @media only screen and (max-width: 750px) {
-  .proj-h1 {
-    font-size: 3em;
-  }
+  
 }
 
 @media only screen and (max-width: 450px) {
-  .proj-h1 {
-    font-size: 2em;
-  }
+  
 }
 
 /*Proj-Card*/
 
-.Head {
-  text-align: center;
-  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
-}
 
 h2 {
   font-size: 1.5em;
@@ -216,11 +287,9 @@ h2 {
     width: 82vw;
     height: 31vh;
   }
+
 }
 
-.Head {
-  font-size: 3em;
-}
 
 .PImg {
   background-color: transparent;

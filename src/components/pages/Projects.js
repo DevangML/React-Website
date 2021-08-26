@@ -20,8 +20,10 @@ export default function Services() {
       data-aos="zoom-out"
       data-aos-easing="ease-out-cubic"
     >
-      <div>
-        <h1 className="retroshadow proj-h1">My Projects</h1>
+      <div clasName="Ptcontainer">
+      <a href="#" target='_self' className='PAa'>
+        <p className='PP'>My Projects</p>
+        </a>
       </div>
 
       <br />
@@ -38,7 +40,9 @@ export default function Services() {
             data-aos-duration="500"
           >
             <img src={ASC} className="PImg" />
-            <figcaption className='Pfigcapt'>Advanced Scientific Calculator</figcaption>
+            <figcaption className="Pfigcapt">
+              Advanced Scientific Calculator
+            </figcaption>
           </a>
           <a
             href="https://github.com/DevangML/DevangML.github.io"
@@ -50,7 +54,7 @@ export default function Services() {
             data-aos-duration="500"
           >
             <img src={Pandemic} className="PImg" />
-            <figcaption className='Pfigcapt'>Website</figcaption>
+            <figcaption className="Pfigcapt">Website</figcaption>
           </a>
         </div>
         <br />
@@ -67,7 +71,7 @@ export default function Services() {
             data-aos-duration="500"
           >
             <img src={Phoenix} className="PImg" />
-            <figcaption className='Pfigcapt'>Pandemic Warrior</figcaption>
+            <figcaption className="Pfigcapt">Pandemic Warrior</figcaption>
           </a>
           <a
             href="https://github.com/DevangML/Phoenix-The-Virtual-Assistant"
@@ -79,7 +83,9 @@ export default function Services() {
             data-aos-duration="500"
           >
             <img src={WebSite} className="PImg" />
-            <figcaption className='Pfigcapt'>Phoenix-The-Virtual-Assistant</figcaption>
+            <figcaption className="Pfigcapt">
+              Phoenix-The-Virtual-Assistant
+            </figcaption>
           </a>
         </div>
       </div>
