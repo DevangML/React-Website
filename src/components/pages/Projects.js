@@ -20,10 +20,10 @@ export default function Services() {
       data-aos="zoom-out"
       data-aos-easing="ease-out-cubic"
     >
-      <div clasName="Ptcontainer">
-      <a href="#" target='_self' className='PAa'>
-        <p className='PP'>My Projects</p>
-        </a>
+      <div class="Ptcontainer">
+        <p className='PP'>
+          <a href="" className='PAa'>My Projects</a>
+        </p>
       </div>
 
       <br />
@@ -35,9 +35,6 @@ export default function Services() {
             target="_blank"
             className="PA"
             data-aos="fade-right"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="500"
           >
             <img src={ASC} className="PImg" />
             <figcaption className="Pfigcapt">
@@ -49,9 +46,6 @@ export default function Services() {
             target="_blank"
             className="PA"
             data-aos="fade-left"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="500"
           >
             <img src={Pandemic} className="PImg" />
             <figcaption className="Pfigcapt">Website</figcaption>
@@ -66,9 +60,6 @@ export default function Services() {
             target="_blank"
             className="PA"
             data-aos="fade-right"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="500"
           >
             <img src={Phoenix} className="PImg" />
             <figcaption className="Pfigcapt">Pandemic Warrior</figcaption>
@@ -78,9 +69,6 @@ export default function Services() {
             target="_blank"
             className="PA"
             data-aos="fade-left"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="500"
           >
             <img src={WebSite} className="PImg" />
             <figcaption className="Pfigcapt">
