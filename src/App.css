@@ -1053,15 +1053,6 @@ a {
   background-attachment: scroll;
   background-size: cover;
   background-attachment: fixed;
-  filter: none;
-  -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
-  -ms-filter: blur(0px);
-  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-  mix-blend-mode: luminosity;
-  -webkit-filter: contrast(1.15);
-  filter: contrast(1.10);
-
   z-index: -2;
 }
 
