@@ -25,7 +25,7 @@ function Navbar() {
   window.addEventListener('resize', showButton);
 
   return (
-    <>
+    <section>
       <nav className='navbar'>
 
         
@@ -76,7 +76,7 @@ function Navbar() {
           {button && <Button buttonStyle='btn--outline'>CONTACT ME</Button>}
         </div>
       </nav>
-    </>
+    </section>
   );
 }
 
