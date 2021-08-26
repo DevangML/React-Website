@@ -11,7 +11,7 @@ function Footer() {
   }, []);
 
   return (
-    <div className="Foot">
+    <section className="Foot">
       <article>
       <div className="tim-head">I Study At</div>
       </article>
@@ -37,7 +37,7 @@ function Footer() {
         disablePictureInPicture
       />
       <br />
-    </div>
+    </section>
   );
 }
 

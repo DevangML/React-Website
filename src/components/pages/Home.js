@@ -8,12 +8,12 @@ import Dfooter from '../Dfooter';
 
 function Home() {
   return (
-    <>
+    <section>
       <HeroSection />
       <Cards />
       <Footer />
       <Dfooter/>
-    </>
+    </section>
   );
 }
 

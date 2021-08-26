@@ -15,7 +15,7 @@ export default function Services() {
     AOS.refresh();
   }, []);
   return (
-    <div
+    <section
       className="projects"
       data-aos="zoom-out"
       data-aos-easing="ease-out-cubic"
@@ -25,9 +25,6 @@ export default function Services() {
           <a href="" className='PAa'>My Projects</a>
         </p>
       </div>
-
-      <br />
-      <br />
       <div className="pcrdcont">
         <div className="pcrd">
           <a
@@ -77,6 +74,6 @@ export default function Services() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

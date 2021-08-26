@@ -42,7 +42,7 @@ function ContactMe() {
   const url = "http://127.0.0.1:8000/contact";
 
   return (
-    <div className="container">
+    <section className="container">
       <div className="form">
         <div className="contact-info">
           <h3 className="title">Let's get in touch</h3>
@@ -125,7 +125,7 @@ function ContactMe() {
           </form>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

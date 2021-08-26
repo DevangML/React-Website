@@ -4,7 +4,7 @@ import Typed from "react-typed";
 
 function HeroSection() {
   return (
-    <div className="hero-container">
+    <section className="hero-container">
       <br />
       <br />
       <br />
@@ -24,7 +24,7 @@ function HeroSection() {
         </a>
          
       </div>
-    </div>
+    </section>
   );
 }
 

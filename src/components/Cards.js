@@ -15,7 +15,7 @@ function Cards() {
     AOS.refresh();
   }, []);
   return (
-    <div className="cards">
+    <section className="cards">
       <h1 className="Head" data-aos="slide-up">About Me</h1>
       <br />
       <h2 align="center" data-aos="slide-up" >
@@ -45,7 +45,7 @@ function Cards() {
         <img data-aos="slide-up"  className='Img' src={python} width="4em" height="4em" />
         <img data-aos="slide-up"  className='Img' src={mern} width="4em" height="4em" />
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -190,7 +190,7 @@ html {
 }
 
 .container {
-  width: 500px;
+  width: 100vw;
   margin: auto;
 }
 
@@ -266,18 +266,12 @@ html {
 }
 
 @media (max-width: 650px) {
-  .Ptcontainer {
-    width: 100%;
-  }
   .PP {
     font-size: 3.5em;
   }
 }
 
 @media (max-width: 650px) {
-  .Ptcontainer {
-    width: 100%;
-  }
   .PP {
     font-size: 3.5em;
   }

@@ -8,7 +8,7 @@ function Timeline() {
     AOS.refresh();
   }, []);
   return (
-    <div className="tim-cont">
+    <section className="tim-cont">
       <div className="tim-head">Timeline Of My Life</div>
       <div class="section agenda">
         <div class="row column text-center">
@@ -183,7 +183,7 @@ function Timeline() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
