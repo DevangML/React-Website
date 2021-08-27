@@ -18,11 +18,7 @@ export default function Services() {
     <section
       className="projects"
     >
-      <div class="Ptcontainer">
-        <p className='PP'>
-          <a href="" className='PAa'>My Projects</a>
-        </p>
-      </div>
+      <div className="tim-head">My Projects</div>
       <div className="pcrdcont">
         <div className="pcrd">
           <a

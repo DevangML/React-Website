@@ -21,9 +21,9 @@ export default function Gallery() {
     AOS.refresh();
   }, []);
   return (
-    <section class="gallary" data-aos="zoom-out" data-aos-easing="ease-out-quart">
+    <section class="gallery" data-aos="zoom-out" data-aos-easing="ease-out-quart">
       <div className='gal-h1-cont'>
-      <h1 contenteditable spellcheck="false" className='gal-h1'>My Certificates</h1>
+      <div className="tim-head">My Projects</div>
       </div>
       <br/>
       <Carousel infiniteLoop autoPlay stopOnHover transitionTime='500' className='Car' showStatus={false}>
