@@ -20,6 +20,8 @@ html {
     pointer;
 }
 
+
+
 /*Scrollbar Section*/
 
 /* width */
@@ -1245,6 +1247,21 @@ h2 {
     width: 95vw;
     height: 33vh;
   }
+}
+
+@media only screen and (max-width:600px) {
+
+  figcaption{font-size: 1.2em;}  
+  .Pfigcapt{font-size: 1em;border-radius: 15px;width:
+  62vw;}
+  .form:hover{transform: none;}
+
+}
+
+@media only screen and (max-width:450px) {
+
+  figcaption{font-size: 1em;}
+  .Pfigcapt{font-size: 0.7em;border-radius: 10px;width: 62vw;}
 }
 
 
