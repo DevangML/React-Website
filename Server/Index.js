@@ -5,7 +5,7 @@ const { urlencoded } = require('express');
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:3001"
+  origin: "http://localhost:3000"
 };
 
 app.use(cors(corsOptions));
@@ -13,8 +13,17 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
-app.post("/contact",urlencoded, (req,res) => {
+app.post("/contact", (req,res) => {
 console.log(req.body.name);
+console.log(req.body.email);
+console.log(req.body.phone);
+console.log(req.body.message);
+let a = {
+  name: req.body.name,
+  email: req.body.email,
+  phone: req.body.phone,
+  message: req.body.message
+}
 });
 
 

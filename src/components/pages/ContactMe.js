@@ -70,7 +70,7 @@ export class ContactMe extends Component {
           </div>
 
           <div className="contact-form">
-            <form autocomplete="off" onSubmit={this.handleSubmit.bind(this)}>
+            <form autoComplete="off" onSubmit={this.handleSubmit.bind(this)}>
               <h3 className="title">Contact Me</h3>
               <div className="input-container">
                 <input
