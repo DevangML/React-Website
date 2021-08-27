@@ -5,7 +5,7 @@ const { urlencoded } = require('express');
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:8081"
+  origin: "http://localhost:3001"
 };
 
 app.use(cors(corsOptions));
@@ -18,7 +18,7 @@ console.log(req.body);
 });
 
 
-const PORT = process.env.PORT || 8080;
+const PORT = 8080;
 app.listen(PORT, ()=>{
   console.log(`Server is running on port ${PORT}.`);
 });

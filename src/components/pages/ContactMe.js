@@ -26,7 +26,7 @@ export class ContactMe extends Component {
         })
     };
 
-    const url = "http://localhost/contact";
+    const url = "http://localhost:8080/contact";
   }
 
   render() {
