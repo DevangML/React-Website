@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
 app.post("/contact",urlencoded, (req,res) => {
-console.log(req.body);
+console.log(req.body.name);
 });
 
 

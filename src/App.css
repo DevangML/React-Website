@@ -265,16 +265,13 @@ html {
   }
 }
 
-@media (max-width: 650px) {
-  .PP {
-    font-size: 3.5em;
-  }
-}
 
 @media (max-width: 650px) {
   .PP {
     font-size: 3.5em;
   }
+
+  .projects{all: unset;}
 }
 
 @media (max-width: 430px) {

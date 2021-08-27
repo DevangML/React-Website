@@ -17,8 +17,6 @@ export default function Services() {
   return (
     <section
       className="projects"
-      data-aos="zoom-out"
-      data-aos-easing="ease-out-cubic"
     >
       <div class="Ptcontainer">
         <p className='PP'>
@@ -31,7 +29,6 @@ export default function Services() {
             href="https://github.com/DevangML/Advanced-Scientific-Calculator"
             target="_blank"
             className="PA"
-            data-aos="fade-right"
           >
             <img src={ASC} className="PImg" />
             <figcaption className="Pfigcapt">
@@ -42,7 +39,6 @@ export default function Services() {
             href="https://github.com/DevangML/DevangML.github.io"
             target="_blank"
             className="PA"
-            data-aos="fade-left"
           >
             <img src={Pandemic} className="PImg" />
             <figcaption className="Pfigcapt">Website</figcaption>
@@ -56,7 +52,6 @@ export default function Services() {
             href="https://github.com/DevangML/Pandemic-Warrior"
             target="_blank"
             className="PA"
-            data-aos="fade-right"
           >
             <img src={Phoenix} className="PImg" />
             <figcaption className="Pfigcapt">Pandemic Warrior</figcaption>
@@ -65,7 +60,6 @@ export default function Services() {
             href="https://github.com/DevangML/Phoenix-The-Virtual-Assistant"
             target="_blank"
             className="PA"
-            data-aos="fade-left"
           >
             <img src={WebSite} className="PImg" />
             <figcaption className="Pfigcapt">
