@@ -23,7 +23,7 @@ export default function Gallery() {
   return (
     <section class="gallery" data-aos="zoom-out" data-aos-easing="ease-out-quart">
       <div className='gal-h1-cont'>
-      <div className="tim-head">My Projects</div>
+      <div className="tim-head">My Certificates</div>
       </div>
       <br/>
       <Carousel infiniteLoop autoPlay stopOnHover transitionTime='500' className='Car' showStatus={false}>

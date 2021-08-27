@@ -6,6 +6,7 @@
   padding: 0;
   font-family: "PT Sans", sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
+  font-family: "Merienda", cursive;
 }
 
 html {
@@ -83,33 +84,6 @@ html {
   margin: auto;
 }
 
-
-@media (max-width: 650px) {
-  .PP {
-    font-size: 3.5em;
-  }
-
-  .projects{all: unset;}
-}
-
-@media (max-width: 430px) {
-  .PP {
-    font-size: 2.5em;
-  }
-}
-
-@media (max-width: 300px) {
-  .PP {
-    font-size: 2em;
-  }
-}
-
-@media (max-width: 300px) {
-  .PP {
-    font-size: 1.7em;
-  }
-}
-
 .Pfigcapt {
   background-color: black;
   color: white;
@@ -130,9 +104,6 @@ html {
   min-width: 100vw;
   padding-top: 1.2rem;
 }
-
-
-/*Proj-Card*/
 
 h2 {
   font-size: 1.5em;
@@ -174,6 +145,7 @@ h2 {
   backface-visibility: hidden;
 }
 
+
 .PA {
   display: grid;
   grid-auto-columns: 2;
@@ -186,6 +158,33 @@ h2 {
   padding: 1.2em;
   font-size: 1.4em;
 }
+
+
+@media (max-width: 650px) {
+  .PP {
+    font-size: 3.5em;
+  }
+
+}
+
+@media (max-width: 430px) {
+  .PP {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 300px) {
+  .PP {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 300px) {
+  .PP {
+    font-size: 1.7em;
+  }
+}
+
 
 @media only screen and (max-width: 600px) {
   .Para {
@@ -207,9 +206,7 @@ h2 {
   }
 }
 
-.PImg {
-  background-color: transparent;
-}
+
 
 /*Contact Me Section*/
 
@@ -575,30 +572,6 @@ textarea.input {
   -webkit-text-stroke: 12px transparent;
 }
 
-@media screen and (max-width: 1190px) {
-  .tim-head {
-    font-size: 5rem;
-  }
-}
-
-@media screen and (max-width: 870px) {
-  .tim-head {
-    font-size: 4rem;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .tim-head {
-    font-size: 3rem;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .tim-head {
-    font-size: 1.8rem;
-  }
-}
-
 .tim-h1 {
   color: #a7dd3c;
   text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77, 0, 38, 0.5),
@@ -674,12 +647,6 @@ textarea.input {
   background: #fff;
 }
 
-@media (min-width: 1024px) {
-  .agenda__item__detail {
-    flex-direction: row;
-  }
-}
-
 .agenda__item__detail:before {
   content: "";
   display: block;
@@ -711,6 +678,48 @@ textarea.input {
   position: absolute;
   top: -1em;
   right: -1em;
+}
+
+.agenda__item__title {
+  font-weight: bold;
+}
+
+.agenda__item__date {
+  display: block;
+  line-height: 4rem;
+  background: #009688;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 1024px) {
+  .agenda__item__detail {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .tim-head {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .tim-head {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tim-head {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .tim-head {
+    font-size: 1.8rem;
+  }
 }
 
 @media (min-width: 640px) {
@@ -753,18 +762,6 @@ textarea.input {
   .agenda__item:nth-child(1n + 2) .agenda__item__detail .horaires {
     order: 1;
   }
-}
-
-.agenda__item__title {
-  font-weight: bold;
-}
-
-.agenda__item__date {
-  display: block;
-  line-height: 4rem;
-  background: #009688;
-  color: #fff;
-  font-size: 1.4rem;
 }
 
 @media (min-width: 640px) {
@@ -847,16 +844,6 @@ textarea.input {
   align-items: center;
   height: 80px;
   max-width: 109.8vw;
-}
-
-.navbar-logo {
-  color: #fff;
-  justify-self: start;
-  margin-left: 20px;
-  text-decoration: none;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
 }
 
 .fa-typo3 {
@@ -1041,10 +1028,6 @@ a {
   background-size: cover;
   background-attachment: fixed;
   z-index: -2;
-}
-
-* {
-  font-family: "Merienda", cursive;
 }
 
 .hero-container > h1 {
@@ -1240,6 +1223,14 @@ h2 {
   font-size: 1.4em;
 }
 
+.Head {
+  font-size: 3em;
+}
+
+.Img {
+  background-color: transparent;
+}
+
 @media only screen and (max-width: 600px) {
   .Para {
     padding: 0.9rem;
@@ -1256,10 +1247,4 @@ h2 {
   }
 }
 
-.Head {
-  font-size: 3em;
-}
 
-.Img {
-  background-color: transparent;
-}

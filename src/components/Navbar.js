@@ -12,7 +12,7 @@ function Navbar() {
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
-      setButton(false);
+      setButton(true);
     } else {
       setButton(true);
     }
