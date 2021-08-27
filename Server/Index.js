@@ -1,22 +1,26 @@
-const express = require("express");
+const express = require('express');
+const cors = require('cors');
+const { urlencoded } = require('express');
+
 const app = express();
 
-app.get("/contact", (req, res) => {
-  try {
-    const { name, email, phone, message } = req.body;
+var corsOptions = {
+  origin: "http://localhost:8081"
+};
 
-    if (!name || !email || !phone || !message) {
-      console.log("error in contact form")
-      return res.json({error: "Please fill the contact form"})
-    }
-    else(
-      document.write(req.body)
-    )
-  } catch (error) {
-    console.log(error);
-  }
+app.use(cors(corsOptions));
+
+app.use(express.json());
+app.use(express.urlencoded({extended:true}));
+
+app.post("/contact",urlencoded, (req,res) => {
+console.log(req.body);
 });
 
-app.listen(8000, () => {
-  console.log(`Server is listening at port 8000`);
+
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, ()=>{
+  console.log(`Server is running on port ${PORT}.`);
 });
+
+
