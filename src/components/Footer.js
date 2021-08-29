@@ -6,7 +6,8 @@ import IEEE from "../assets/videos/IEEE.mp4";
 
 function Footer() {
   useEffect(() => {
-    AOS.init({ duration: 500 });
+    AOS.init({ duration: 500 },{debounceDelay: 50},
+    {throttleDelay: 99},{mirror: true},{offset: 120});
     AOS.refresh();
   }, []);
 

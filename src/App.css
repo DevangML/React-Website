@@ -20,6 +20,8 @@ html {
     pointer;
 }
 
+
+
 /*Scrollbar Section*/
 
 /* width */
@@ -56,6 +58,7 @@ html {
 /*Gallery Section*/
 
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+
 
 .gallery {
   background: #f12711;
@@ -98,21 +101,7 @@ html {
 }
 
 .projects {
-  background: linear-gradient(
-    150deg,
-    #ffcb47,
-    #ffc444,
-    #ffb03f,
-    #fb923e,
-    #f06e44,
-    #dc454d,
-    #be1a57,
-    #99005e,
-    #710061,
-    #4b0060,
-    #2d005d,
-    #1f005c
-  );
+  background: linear-gradient(150deg, #ffcb47, #ffc444, #ffb03f, #fb923e, #f06e44, #dc454d, #be1a57, #99005e, #710061, #4b0060, #2d005d, #1f005c);
   min-height: 100vh;
   min-width: 100vw;
   padding-top: 1.2rem;
@@ -159,6 +148,7 @@ h2 {
   backface-visibility: hidden;
 }
 
+
 .PA {
   display: grid;
   grid-auto-columns: 2;
@@ -172,10 +162,12 @@ h2 {
   font-size: 1.4em;
 }
 
+
 @media (max-width: 650px) {
   .PP {
     font-size: 3.5em;
   }
+
 }
 
 @media (max-width: 430px) {
@@ -196,6 +188,7 @@ h2 {
   }
 }
 
+
 @media only screen and (max-width: 600px) {
   .Para {
     padding: 0.9rem;
@@ -215,6 +208,8 @@ h2 {
     height: 31vh;
   }
 }
+
+
 
 /*Contact Me Section*/
 
@@ -574,9 +569,12 @@ textarea.input {
   text-align: center;
   font-family: "Niconne", cursive;
   font-weight: 700;
+  margin-bottom: 2rem;
   background: linear-gradient(90deg, #ff0000 5%, #00b053 15%, #1baada 30%);
   background-clip: text;
   -webkit-text-stroke: 12px transparent;
+  padding: 5px;
+  word-wrap:break-word;
 }
 
 .tim-h1 {
@@ -720,9 +718,6 @@ textarea.input {
 @media screen and (max-width: 700px) {
   .tim-head {
     font-size: 3rem;
-    color: #7d0000;
-    background: transparent;
-    text-shadow: #e9ff33 5px -2px 2px, #9c9c9c 6px -1px 2px;
   }
 }
 
@@ -834,13 +829,7 @@ textarea.input {
 
 /*Navbar Section*/
 
-.logo {
-  background-image: url("./components/pages/image/devang.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-clip: content-box;
-}
+.logo{background-image: url('./components/pages/image/devang.jpg');background-position: center;background-repeat: no-repeat;background-size: contain;background-clip: content-box;}
 
 .navbar {
   background: #232526;
@@ -1103,6 +1092,7 @@ a {
 
 /*Footer Section*/
 
+
 .Foot {
   background: rgba(52, 53, 255, 1);
   background: -webkit-linear-gradient(
@@ -1264,27 +1254,19 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  figcaption {
-    font-size: 1.2em;
-  }
-  .Pfigcapt {
-    font-size: 1em;
-    border-radius: 15px;
-    width: 62vw;
-  }
-  .form:hover {
-    transform: none;
-  }
+@media only screen and (max-width:600px) {
+
+  figcaption{font-size: 1.2em;}  
+  .Pfigcapt{font-size: 1em;border-radius: 15px;width:
+  62vw;}
+  .form:hover{transform: none;}
+
 }
 
-@media only screen and (max-width: 450px) {
-  figcaption {
-    font-size: 1em;
-  }
-  .Pfigcapt {
-    font-size: 0.7em;
-    border-radius: 10px;
-    width: 62vw;
-  }
+@media only screen and (max-width:450px) {
+
+  figcaption{font-size: 1em;}
+  .Pfigcapt{font-size: 0.7em;border-radius: 10px;width: 62vw;}
 }
+
+
