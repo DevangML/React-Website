@@ -722,7 +722,7 @@ textarea.input {
     font-size: 3rem;
     color: #005900;
     background: transparent;
-    text-shadow: #fffca8 2px 2px 0px, #9c9c9c 4px 4px 0px;
+    text-shadow: #fffca8 3px 1px 3px, #9c9c9c 4px 2px 2px;
   }
 }
 
