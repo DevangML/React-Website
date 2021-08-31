@@ -46,7 +46,10 @@ mongoose
   });
 
 app.post("/contact", (req, res) => {
-  const cont = new ContactM(req.body);
+  const cont = new ContactM({Name: req.body.name,
+    Email: req.body.email,
+    Phone: req.body.phone,
+    Message: req.body.message});
 
   cont.save()
   .then((result)=>{
