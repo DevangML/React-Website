@@ -26,7 +26,7 @@ export class ContactMe extends Component {
         })
     };
 
-    const url = "http://localhost:8080/contact";
+    const url = "https://devang-portfolio-website.herokuapp.com/contact";
   }
 
   render() {
